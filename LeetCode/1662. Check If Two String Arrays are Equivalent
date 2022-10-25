@@ -64,7 +64,7 @@ class Solution:
         else:
             return False
 
-# Final submission: Directly concatenated the lists in "if" block without assigning it to a ariable, which significantly decreased the runtime and memory used.
+# Final submission: Directly concatenated the lists in "if" block without assigning it to a variable, which significantly decreased the runtime and memory used.
 # Runtime -> 34 ms Beats 93.94%
 # Memory -> 13.8 MB Beats 75.82%
 
