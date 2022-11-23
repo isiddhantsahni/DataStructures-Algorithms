@@ -69,4 +69,15 @@ class Solution:
                 insertIndex = insertIndex + 1       
         return insertIndex
 
+#########################################################################################
+# Second submission: Using 2 pointers to check if unique element found and then replacing the same. Starting the loop from the second element as array is said to be sorted already.
+# Runtime -> 29 ms Beats 98.57%
+# Memory -> 13.8 MB Beats 63.43%
 
+class Solution:
+    def removeElement(self, nums: List[int], val: int) -> int:
+        
+        while val in nums:
+            nums.remove(val)
+        
+        return(len(nums))
