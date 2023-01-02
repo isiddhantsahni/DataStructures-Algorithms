@@ -47,3 +47,20 @@ class Solution:
             if i>1:                
                 return True
         return False
+       
+# First submission: 
+# Runtime -> 465 ms Beats 88.41%
+# Memory -> 25.9 MB Beats 91.63%
+
+# Optimizing the first solution, while checking if value already exists in dict, then return true. Else return false in the end after loop ends.
+
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+
+        diction={}
+        for i in nums:
+            if i in diction:
+                return True
+            else:
+                diction[i]=1
+        return False
