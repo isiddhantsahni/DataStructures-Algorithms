@@ -48,7 +48,7 @@ class Solution:
                 return True
         return False
        
-# First submission: 
+# Second submission: 
 # Runtime -> 465 ms Beats 88.41%
 # Memory -> 25.9 MB Beats 91.63%
 
