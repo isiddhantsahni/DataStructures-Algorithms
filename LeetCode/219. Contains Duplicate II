@@ -69,9 +69,18 @@ class Solution:
         return False
         
 # Third submission: 
-# Runtime -> 
-# Memory -> 
+# Runtime -> 604 ms Beats 74.86%
+# Memory -> 29.5MB Beats 17.40%
 
-# Optimized my first solution
+# Optimized my first solution basis of the solution found:
+
+class Solution:
+    def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
+        hmap = {}
+        for i in range(0,len(nums)):
+            if nums[i] in hmap and abs(hmap[nums[i]]-i) <= k:
+                return True
+            hmap[nums[i]]=i
+        return False
 
 
