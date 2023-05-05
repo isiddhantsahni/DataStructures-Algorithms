@@ -36,7 +36,7 @@ Constraints:
 
 # Used a dictionary to check if numbers exists in dict; if it does check abs(i-j)<=k and return true , else add the number to dict with it's position.
 
-lass Solution:
+class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         hmap = {}
         for i in range(0,len(nums)):
@@ -50,5 +50,28 @@ lass Solution:
         return False
        
 # Second submission: 
+# Runtime -> 590 ms Beats 93.20%
+# Memory -> 29.8MB Beats 12.97%
+
+# Looked at submissions and found the solution of why I got the failed test case.
+
+class Solution:
+    def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
+        # Create hset for storing previous of k elements...
+        hset = {}
+        # Traverse for all elements of the given array in a for loop...
+        for idx in range(len(nums)):
+            # If duplicate element is present at distance less than equal to k, return true...
+            if nums[idx] in hset and abs(idx - hset[nums[idx]]) <= k:
+                return True
+            hset[nums[idx]] = idx
+        # If no duplicate element is found then return false...
+        return False
+        
+# Third submission: 
 # Runtime -> 
 # Memory -> 
+
+# Optimized my first solution
+
+
