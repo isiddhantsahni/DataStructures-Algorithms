@@ -30,53 +30,25 @@ Constraints:
 
 #########################################################################################
 # First submission: 
-# Runtime -> 538 ms Beats 60.89%
-# Memory -> 26 MB Beats 28.25%
+# Runtime ->
+# Memory -> 
+# Failed 1 test case
 
-# Used a dictionary to check if numbers exists in dict; if it does add 1 to value, else add the number to dict with default value 1.
+# Used a dictionary to check if numbers exists in dict; if it does check abs(i-j)<=k and return true , else add the number to dict with it's position.
 
-class Solution:
-    def containsDuplicate(self, nums: List[int]) -> bool:
-
-        hmap={}
-        for i in nums:
-            if i in hmap:
-                hmap[i]+=1
+lass Solution:
+    def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
+        hmap = {}
+        for i in range(0,len(nums)):
+            if nums[i] in hmap.keys():
+                if abs(hmap[nums[i]]-i) <= k:
+                    return True
             else:
-                hmap[i]=1
-
-        for i in hmap.values():
-            if i>1:                
-                return True
+                hmap[nums[i]]=i
+                print(hmap)
+        
         return False
        
 # Second submission: 
-# Runtime -> 465 ms Beats 88.41%
-# Memory -> 25.9 MB Beats 91.63%
-
-# Optimizing the first solution, while checking if value already exists in dict, then return true. Else return false in the end after loop ends.
-
-class Solution:
-    def containsDuplicate(self, nums: List[int]) -> bool:
-
-        diction={}
-        for i in nums:
-            if i in diction:
-                return True
-            else:
-                diction[i]=1
-        return False
-
-# Third submission: 
-# Runtime -> 518 ms Beats 63.29%
-# Memory -> 26.2 MB Beats 28.25%
-
-# Another solution would be to sort the array first, and then starting the array from 1 to len(array) so as to not get index out of range error. We check whether the number is equivalent to the previous element in array, thereby returning True. If nothing found, returning False.
-
-class Solution:
-    def containsDuplicate(self, nums: List[int]) -> bool:
-        nums.sort()
-        for i in range(1,len(nums)):
-            if nums[i-1] == nums[i]:
-                return True
-        return False
+# Runtime -> 
+# Memory -> 
