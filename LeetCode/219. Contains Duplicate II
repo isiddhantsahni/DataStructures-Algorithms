@@ -1,1 +1,82 @@
-H
+# Problem link -> https://leetcode.com/problems/contains-duplicate-ii/
+
+"""
+
+Given an integer array nums and an integer k, return true if there are two distinct indices i and j in the array such that nums[i] == nums[j] and abs(i - j) <= k.
+
+ 
+
+Example 1:
+
+Input: nums = [1,2,3,1], k = 3
+Output: true
+Example 2:
+
+Input: nums = [1,0,1,1], k = 1
+Output: true
+Example 3:
+
+Input: nums = [1,2,3,1,2,3], k = 2
+Output: false
+ 
+
+Constraints:
+
+1 <= nums.length <= 105
+-109 <= nums[i] <= 109
+0 <= k <= 105
+
+"""
+
+#########################################################################################
+# First submission: 
+# Runtime -> 538 ms Beats 60.89%
+# Memory -> 26 MB Beats 28.25%
+
+# Used a dictionary to check if numbers exists in dict; if it does add 1 to value, else add the number to dict with default value 1.
+
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+
+        hmap={}
+        for i in nums:
+            if i in hmap:
+                hmap[i]+=1
+            else:
+                hmap[i]=1
+
+        for i in hmap.values():
+            if i>1:                
+                return True
+        return False
+       
+# Second submission: 
+# Runtime -> 465 ms Beats 88.41%
+# Memory -> 25.9 MB Beats 91.63%
+
+# Optimizing the first solution, while checking if value already exists in dict, then return true. Else return false in the end after loop ends.
+
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+
+        diction={}
+        for i in nums:
+            if i in diction:
+                return True
+            else:
+                diction[i]=1
+        return False
+
+# Third submission: 
+# Runtime -> 518 ms Beats 63.29%
+# Memory -> 26.2 MB Beats 28.25%
+
+# Another solution would be to sort the array first, and then starting the array from 1 to len(array) so as to not get index out of range error. We check whether the number is equivalent to the previous element in array, thereby returning True. If nothing found, returning False.
+
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        nums.sort()
+        for i in range(1,len(nums)):
+            if nums[i-1] == nums[i]:
+                return True
+        return False
