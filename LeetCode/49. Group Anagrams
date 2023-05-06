@@ -48,3 +48,24 @@ class Solution:
             strs_table[sorted_string].append(string)
 
         return list(strs_table.values())
+
+#########################################################################################
+# Second submission: 
+# Runtime -> 122 ms Beats 19.23%
+# Memory -> 22.2 MB Beats 5.7%
+
+# Found another solution 
+
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        ans = collections.defaultdict(list)
+
+        for s in strs:
+            count = [0] * 26
+            for c in s:
+                count[ord(c) - ord("a")] += 1
+            # print(count)
+            ans[tuple(count)].append(s)
+            # print(tuple(count))
+            # print(ans)
+        return ans.values()
