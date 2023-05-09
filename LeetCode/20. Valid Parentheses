@@ -1,77 +1,57 @@
 # Problem link -> https://leetcode.com/problems/valid-parentheses/description/
 
 """
-Given two string arrays word1 and word2, return true if the two arrays represent the same string, and false otherwise.
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
-A string is represented by an array if the array elements concatenated in order forms the string.
+An input string is valid if:
+
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+Every close bracket has a corresponding open bracket of the same type.
+ 
 
 Example 1:
 
-Input: word1 = ["ab", "c"], word2 = ["a", "bc"]
+Input: s = "()"
 Output: true
-Explanation:
-word1 represents string "ab" + "c" -> "abc"
-word2 represents string "a" + "bc" -> "abc"
-The strings are the same, so return true.
 Example 2:
 
-Input: word1 = ["a", "cb"], word2 = ["ab", "c"]
-Output: false
+Input: s = "()[]{}"
+Output: true
 Example 3:
 
-Input: word1  = ["abc", "d", "defg"], word2 = ["abcddefg"]
-Output: true
+Input: s = "(]"
+Output: false
  
 
 Constraints:
 
-1 <= word1.length, word2.length <= 103
-1 <= word1[i].length, word2[i].length <= 103
-1 <= sum(word1[i].length), sum(word2[i].length) <= 103
-word1[i] and word2[i] consist of lowercase letters.
+1 <= s.length <= 104
+s consists of parentheses only '()[]{}'.
 """
 
 #########################################################################################
 
 # First submission: Tried to concatenate the array into defined string variables and compare the variables to either return true or false. 
-# Runtime -> 61 ms Beats 46.31%
-# Memory -> 14 MB Beats 33.11%
+# Runtime -> 47 ms Beats 13%
+# Memory -> 16.3 MB Beats 12.66%
 
 class Solution:
-    def arrayStringsAreEqual(self, word1: List[str], word2: List[str]) -> bool:
-        string1=""
-        string2=""
-        for i in word1:
-            string1+=i
-        for j in word2:
-            string2+=j
-        if string1 == string2:
-            return True
-        else:
-            return False
+    def isValid(self, s: str) -> bool:
+        stack = []
+        for char in s:
+            if char == '(' or char == '{' or char == '[':
+                stack.append(char)
+            else:
+                if not stack:
+                    return False
+                if char == ')' and stack[-1] == '(':
+                    stack.pop()
+                elif char == '}' and stack[-1] == '{':
+                    stack.pop()
+                elif char == ']' and stack[-1] == '[':
+                    stack.pop()
+                else:
+                    return False
+        return not stack
             
- 
-# Second submission: Used the string function "join" to concatenate the lists, which decreased runtime and memory.
-# Runtime -> 57 ms Beats 58.20%
-# Memory -> 13.9 MB Beats 75.82%
- 
-class Solution:
-    def arrayStringsAreEqual(self, word1: List[str], word2: List[str]) -> bool:
-        string1="".join(word1)
-        string2="".join(word2)
-        if string1 == string2:
-            return True
-        else:
-            return False
-
-# Final submission: Directly concatenated the lists in "if" block without assigning it to a variable, which significantly decreased the runtime and memory used.
-# Runtime -> 34 ms Beats 93.94%
-# Memory -> 13.8 MB Beats 75.82%
-
-class Solution:
-    def arrayStringsAreEqual(self, word1: List[str], word2: List[str]) -> bool:
-        if "".join(word1) == "".join(word2):
-            return True
-        else:
-            return False
- 
