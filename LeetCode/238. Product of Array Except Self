@@ -32,15 +32,16 @@ Follow up: Can you solve the problem in O(1) extra space complexity? (The output
 
 #########################################################################################
 
-# Used a dictionary to check if difference of numbers exists in dict; if it does return the number and the existing number, else add the number to dict
-
 class Solution:
-   def twoSum(self, nums: List[int], target: int) -> List[int]:
-       seen = {}
-       for i, value in enumerate(nums):
-           remaining = target - nums[i]
-           
-           if remaining in seen:
-               return [i, seen[remaining]]
-            
-           seen[value] = i 
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
+        res = [1] * (len(nums))
+
+        prefix = 1
+        for i in range(len(nums)):
+            res[i] = prefix
+            prefix *= nums[i]
+        postfix = 1
+        for i in range(len(nums) - 1, -1, -1):
+            res[i] *= postfix
+            postfix *= nums[i]
+        return res
