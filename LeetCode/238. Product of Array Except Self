@@ -31,6 +31,9 @@ Follow up: Can you solve the problem in O(1) extra space complexity? (The output
 """
 
 #########################################################################################
+# First submission: 
+# Runtime -> 236 ms Beats 59.86%
+# Memory -> 23.3 MB Beats 23.8%
 
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
