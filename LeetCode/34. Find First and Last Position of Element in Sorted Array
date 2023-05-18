@@ -33,8 +33,8 @@ nums is a non-decreasing array.
 
 #########################################################################################
 # First submission: 
-# Runtime -> 
-# Memory -> 
+# Runtime -> 109 ms Beats 5.48%
+# Memory -> 17.8 MB Beats 21.2%
 
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
