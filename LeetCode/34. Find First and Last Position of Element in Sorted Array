@@ -35,3 +35,16 @@ nums is a non-decreasing array.
 # First submission: 
 # Runtime -> 
 # Memory -> 
+
+class Solution:
+    def searchRange(self, nums: List[int], target: int) -> List[int]:
+        pos = [-1,-1]
+        for n in range(len(nums)):
+            if target == nums[n]:
+                pos[0]=n
+                length = 0
+                while n+length < len(nums) and nums[n+length] == target:
+                    length+=1
+                pos[1] = n+length-1
+                break  
+        return pos
