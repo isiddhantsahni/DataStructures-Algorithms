@@ -39,5 +39,20 @@ digits does not contain any leading 0's.
 
 #########################################################################################
 # First submission:
-# Runtime -> 
-# Memory -> 
+# Runtime -> 32 ms Beats 82.6%
+# Memory -> 16.3 MB Beats 5.67%
+
+class Solution:
+    def plusOne(self, digits: List[int]) -> List[int]:
+        # Converting integer list to string list
+        s = [str(i) for i in digits]
+
+        # Join list items using join()
+        res = int("".join(s))
+        res+=1
+
+        # print(res)
+        # print([int(d) for d in str(res)])
+
+        return [int(d) for d in str(res)]
+ 
