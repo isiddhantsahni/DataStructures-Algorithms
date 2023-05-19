@@ -31,5 +31,20 @@ nums contains distinct values sorted in ascending order.
 
 #########################################################################################
 # First submission: 
-# Runtime -> 
-# Memory ->
+# Runtime -> 65 ms Beats 20.54%
+# Memory -> 17.2 MB Beats 13.61%
+
+class Solution:
+    def searchInsert(self, nums: List[int], target: int) -> int:
+        start = 0
+        end = len(nums)-1
+        while start <= end:
+            mid = (start + end)//2
+            if nums[mid] == target:
+                return mid
+            elif nums[mid] > target:
+                end = mid - 1
+            else:
+                start = mid + 1
+        return end+1
+        
