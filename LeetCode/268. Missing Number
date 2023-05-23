@@ -46,3 +46,6 @@ class Solution:
                 return i
         return 0
  
+# Second submission: Finding sum of series and subtracting to find the missing number.
+# Runtime -> 2625 ms Beats 13.76%
+# Memory -> 17.7 MB Beats 14.51%
