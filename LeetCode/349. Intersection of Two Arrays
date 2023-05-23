@@ -24,5 +24,9 @@ Constraints:
 
 #########################################################################################
 # First submission: Making a set and performing AND operation
-# Runtime ->  ms Beats 
-# Memory ->  MB Beats
+# Runtime -> 59 ms Beats 46.91%
+# Memory -> 16.5 MB Beats 28.4%
+
+class Solution:
+    def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        return set(nums1) & set(nums2)
