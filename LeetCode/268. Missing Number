@@ -34,6 +34,15 @@ Follow up: Could you implement a solution using only O(1) extra space complexity
 """
 
 #########################################################################################
-# First submission: 
-# Runtime -> 
-# Memory ->
+# First submission: Traversing 0->n+1 and checking if it exists in the list.
+# Runtime -> 2625 ms Beats 13.76%
+# Memory -> 17.7 MB Beats 14.51%
+
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int:
+
+        for i in range(len(nums)+1):
+            if i not in nums:
+                return i
+        return 0
+ 
