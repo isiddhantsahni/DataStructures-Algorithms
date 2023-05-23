@@ -47,5 +47,15 @@ class Solution:
         return 0
  
 # Second submission: Finding sum of series and subtracting to find the missing number.
-# Runtime -> 2625 ms Beats 13.76%
-# Memory -> 17.7 MB Beats 14.51%
+# Runtime -> 139 ms Beats 62.50%
+# Memory -> 17.9 MB Beats 7.7%
+
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int:
+        n =len(nums)
+        expectedSum = int(n*(n+1)/2)
+        sum= 0
+        for num in nums:
+            sum = sum + num
+        missingNumber = expectedSum-sum
+        return missingNumber
