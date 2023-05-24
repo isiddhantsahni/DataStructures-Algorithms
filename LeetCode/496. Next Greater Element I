@@ -40,6 +40,29 @@ Follow up: Could you find an O(nums1.length + nums2.length) solution?
 """
 
 #########################################################################################
-# First submission: 
-# Runtime -> 
-# Memory -> 
+# First submission: if nums1[i] == nums2[j], take another loop from nums2[j+1] to end; if next greater element is present append it,else append -1
+# Runtime -> 428 ms Beats 5%
+# Memory -> 16.5 MB Beats 34%
+
+class Solution:
+    def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        
+        nums3=[]
+
+        for i in range(len(nums1)):
+            for j in range(len(nums2)):
+                # print("nums1 ->",i,"nums2 ->",j)
+                flag,val = 1,0
+                if nums1[i]==nums2[j]:
+                    val = nums2[j]
+        
+                    for k in range(j+1,len(nums2)):
+                        if nums2[k] > val:
+                            nums3.append(nums2[k])
+                            flag = 0
+                            break
+                    
+                    if flag == 1:
+                        nums3.append(-1)
+
+        return nums3
