@@ -45,3 +45,7 @@ class Solution:
         final = ''.join(filter(str.isalnum, s))
         final=final.lower()
         return final == final[::-1]
+
+# Second submission: Using 2 pointers
+# Runtime -> 58 ms Beats 52.14%
+# Memory -> 17.3 MB Beats 24.63%
