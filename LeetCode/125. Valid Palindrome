@@ -35,5 +35,5 @@ s consists only of printable ASCII characters.
 
 #########################################################################################
 # First submission: 
-# Runtime -> 
-# Memory -> Beats 
+# Runtime -> 58 ms Beats 52.14%
+# Memory -> 17.3 MB Beats 24.63%
