@@ -34,6 +34,14 @@ s consists only of printable ASCII characters.
 """
 
 #########################################################################################
-# First submission: 
+# First submission: First removed alphanumeric characters and used lower() func, returned the boolean of string and its reverse
 # Runtime -> 58 ms Beats 52.14%
 # Memory -> 17.3 MB Beats 24.63%
+
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+
+        # s = ''.join(c for c in input if c.isalnum())
+        final = ''.join(filter(str.isalnum, s))
+        final=final.lower()
+        return final == final[::-1]
