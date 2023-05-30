@@ -31,8 +31,8 @@ Each element in the array appears twice except for one element which appears onl
 
 #########################################################################################
 # First submission: Used XOR logic to get result 
-# Runtime -> 
-# Memory -> 
+# Runtime -> 152 ms Beats 28.93%
+# Memory -> 18.8 MB Beats 49.47%
 
 # Concept of XOR
 class Solution:
