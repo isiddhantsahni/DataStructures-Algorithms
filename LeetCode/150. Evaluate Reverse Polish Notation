@@ -48,5 +48,5 @@ tokens[i] is either an operator: "+", "-", "*", or "/", or an integer in the ran
 
 #########################################################################################
 # First submission: 
-# Runtime -> 
-# Memory -> 
+# Runtime -> 89 ms Beats 32.75%
+# Memory -> 16.8 MB Beats 15.79%
