@@ -1,6 +1,7 @@
 # Problem link -> https://leetcode.com/problems/car-fleet/
 
 """
+
 There are n cars going to the same destination along a one-lane road. The destination is target miles away.
 
 You are given two integer array position and speed, both of length n, where position[i] is the position of the ith car and speed[i] is the speed of the ith car (in miles per hour).
@@ -46,6 +47,7 @@ n == position.length == speed.length
 0 <= position[i] < target
 All the values of position are unique.
 0 < speed[i] <= 106
+
 """
 
 #########################################################################################
