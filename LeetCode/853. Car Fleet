@@ -54,3 +54,5 @@ All the values of position are unique.
 # First submission: 
 # Runtime -> 925 ms Beats 65.1%
 # Memory -> 38.3 MB Beats 58.11%
+
+# Going from right to left, and checking the speeds of the cars. If collision, pop the last added element.
