@@ -25,6 +25,7 @@ Constraints:
 """
 
 #########################################################################################
-# First submission:
-# Runtime ->
-# Memory -> 
+# First submission: 
+# Runtime -> 918 ms Beats 86.80%
+# Memory -> 33.4 MB Beats 45.1%
+
