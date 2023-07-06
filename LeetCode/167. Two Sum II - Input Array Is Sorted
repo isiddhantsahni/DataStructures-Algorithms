@@ -40,5 +40,5 @@ The tests are generated such that there is exactly one solution.
 
 #########################################################################################
 # First submission: Using 2 pointers for left and right and checking if sum of two numbers pointed are equal to target. If yes return, the indices.
-# Runtime ->
-# Memory -> 
+# Runtime -> 125 ms Beats 98.48% 
+# Memory -> 17.3 MB Beats 60.62%
