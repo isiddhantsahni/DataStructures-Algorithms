@@ -43,3 +43,8 @@ class Solution:
                 nums[l]=nums[r]
                 nums[r]=temp
                 l+=1
+
+# Second submission: Short hand for replacing values.
+# Runtime -> 175 ms Beats 71.52%
+# Memory -> 18 MB Beats 52.89%
+
