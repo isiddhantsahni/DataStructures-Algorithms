@@ -27,3 +27,6 @@ Follow up: Could you minimize the total number of operations done?
 """
 
 #########################################################################################
+# First submission: Have left, right pointers to move 0 values to the right. (Quick sort)
+# Runtime -> 
+# Memory -> 
