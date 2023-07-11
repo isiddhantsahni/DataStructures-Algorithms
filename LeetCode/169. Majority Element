@@ -32,3 +32,14 @@ Follow-up: Could you solve the problem in linear time and in O(1) space?
 # First submission: Adding values in dictionary with their counts, then returning the one with max value
 # Runtime -> 197 ms Beats 7.22%
 # Memory -> 17.8 MB Beats 73.89%
+
+class Solution:
+    def majorityElement(self, nums: List[int]) -> int:
+        diction = {}
+        for i in nums:
+            if i in diction:
+                diction[i]+=1
+            else:
+                diction[i]=1
+
+        return max(zip(diction.values(), diction.keys()))[1]
