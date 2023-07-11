@@ -29,6 +29,6 @@ Follow-up: Could you solve the problem in linear time and in O(1) space?
 """
 
 #########################################################################################
-# First submission: 
-# Runtime -> 
-# Memory -> 
+# First submission: Adding values in dictionary with their counts, then returning the one with max value
+# Runtime -> 197 ms Beats 7.22%
+# Memory -> 17.8 MB Beats 73.89%
