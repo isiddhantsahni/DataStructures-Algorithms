@@ -53,3 +53,7 @@ class Solution:
         nums.sort()
         n = len(nums)
         return nums[n//2]
+
+# Third submission: Moore Voting Algorithm
+# Runtime -> 159 ms Beats 97.84%
+# Memory -> 17.8 MB Beats 73.89%
