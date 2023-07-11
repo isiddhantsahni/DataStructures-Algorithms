@@ -55,5 +55,5 @@ class Solution:
         return nums[n//2]
 
 # Third submission: Moore Voting Algorithm
-# Runtime -> 159 ms Beats 97.84%
+# Runtime -> 164 ms Beats 93.41%
 # Memory -> 17.8 MB Beats 73.89%
