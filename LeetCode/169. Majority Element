@@ -43,3 +43,7 @@ class Solution:
                 diction[i]=1
 
         return max(zip(diction.values(), diction.keys()))[1]
+
+# Second submission: Sort and Sending n//2 value of array.
+# Runtime -> 159 ms Beats 97.84%
+# Memory -> 17.8 MB Beats 73.89%
