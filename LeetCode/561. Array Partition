@@ -44,3 +44,7 @@ class Solution:
 # Second submission: Making it one liner
 # Runtime -> 278 ms Beats 62.93%
 # Memory -> 19.3 MB Beats 55.41%
+
+class Solution:
+    def arrayPairSum(self, nums: List[int]) -> int:
+        return sum(sorted(nums)[::2])
