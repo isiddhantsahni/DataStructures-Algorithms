@@ -42,5 +42,5 @@ class Solution:
         return s
 
 # Second submission: Making it one liner
-# Runtime -> 
-# Memory -> 
+# Runtime -> 278 ms Beats 62.93%
+# Memory -> 19.3 MB Beats 55.41%
