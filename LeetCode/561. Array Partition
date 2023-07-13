@@ -29,6 +29,6 @@ nums.length == 2 * n
 """
 
 #########################################################################################
-# First submission: 
-# Runtime -> 
-# Memory -> 
+# First submission: Using Sort
+# Runtime -> 295 ms Beats 20.6%
+# Memory -> 19.4 MB Beats 19.60%
