@@ -40,5 +40,5 @@ n == accounts[i].length
 
 #########################################################################################
 # First submission: Using max function to find the highest wealth
-# Runtime -> 
-# Memory -> 
+# Runtime -> 70 ms Beats 52.93%
+# Memory -> 16.23 MB Beats 91.69%
