@@ -42,3 +42,14 @@ n == accounts[i].length
 # First submission: Using max function to find the highest wealth
 # Runtime -> 70 ms Beats 52.93%
 # Memory -> 16.23 MB Beats 91.69%
+
+class Solution:
+    def maximumWealth(self, accounts: List[List[int]]) -> int:
+        final=0
+        for i in range(len(accounts)):
+            sum=0
+            for j in range(len(accounts[i])):
+                sum += accounts[i][j]
+                final = max(final, sum)
+        print(final)
+        return final
