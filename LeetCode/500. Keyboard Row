@@ -34,5 +34,5 @@ words[i] consists of English letters (both lowercase and uppercase).
 
 #########################################################################################
 # First submission: Creating Hash tables to check the words against the rows.
-# Runtime -> 
-# Memory -> 
+# Runtime -> 56 ms Beats 5.23%
+# Memory -> 16.18 MB Beats 95.01%
