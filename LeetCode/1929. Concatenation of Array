@@ -45,3 +45,7 @@ class Solution:
 # Second submission: Returning the concatenation of arrays 2nd method
 # Runtime -> 101 ms Beats 40.41%
 # Memory -> 16.63 MB Beats 52.40%
+
+class Solution:
+    def getConcatenation(self, nums: List[int]) -> List[int]:
+        return nums*2
