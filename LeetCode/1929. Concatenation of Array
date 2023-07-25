@@ -41,3 +41,7 @@ n == nums.length
 class Solution:
     def getConcatenation(self, nums: List[int]) -> List[int]:
         return nums+nums
+
+# Second submission: Returning the concatenation of arrays 2nd method
+# Runtime -> 92 ms Beats 86.14%
+# Memory -> 16.47 MB Beats 98.35%
