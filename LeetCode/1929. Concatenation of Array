@@ -35,5 +35,5 @@ n == nums.length
 
 #########################################################################################
 # First submission: Returning the concatenation of arrays
-# Runtime -> 
-# Memory -> 
+# Runtime -> 92 ms Beats 86.14%
+# Memory -> 16.47 MB Beats 98.35%
