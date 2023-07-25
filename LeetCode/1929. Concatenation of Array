@@ -43,5 +43,5 @@ class Solution:
         return nums+nums
 
 # Second submission: Returning the concatenation of arrays 2nd method
-# Runtime -> 92 ms Beats 86.14%
-# Memory -> 16.47 MB Beats 98.35%
+# Runtime -> 101 ms Beats 40.41%
+# Memory -> 16.63 MB Beats 52.40%
