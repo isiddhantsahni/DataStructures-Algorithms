@@ -46,3 +46,7 @@ class Solution:
         for i in range(len(nums)):
             ans[i] = nums[nums[i]]
         return ans
+
+# Second submission: Just returning through list comprehension
+# Runtime -> 
+# Memory -> 
