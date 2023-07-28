@@ -37,5 +37,5 @@ Follow-up: Can you solve it without using an extra space (i.e., O(1) memory)?
 
 #########################################################################################
 # First submission: Creating a new array to store the resultant values
-# Runtime -> 
-# Memory -> 
+# Runtime -> 108 ms Beats 99.90%
+# Memory -> 16.45 MB Beats 92.46%
