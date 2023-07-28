@@ -50,3 +50,7 @@ class Solution:
 # Second submission: Just returning through list comprehension
 # Runtime -> 102 ms Beats 99.92%
 # Memory -> 16.48 MB Beats 92.46%
+
+class Solution:
+    def buildArray(self, nums: List[int]) -> List[int]:
+	    return [nums[i] for i in nums]
