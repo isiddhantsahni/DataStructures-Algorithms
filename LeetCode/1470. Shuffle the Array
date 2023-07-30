@@ -31,5 +31,5 @@ nums.length == 2n
 
 #########################################################################################
 # First submission: Add values in parallel to a array.
-# Runtime -> 
-# Memory -> 
+# Runtime -> 62 ms Beats 97.32%
+# Memory -> 16.58 MB Beats 38.50%
