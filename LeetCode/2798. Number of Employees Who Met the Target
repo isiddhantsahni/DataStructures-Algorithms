@@ -51,3 +51,8 @@ class Solution:
 # Second Submission: Compact answer
 # Runtime -> 46 ms Beats 70.86%
 # Memory -> 16.26 MB Beats 72.53%
+
+class Solution:
+    def numberOfEmployeesWhoMetTarget(self, hours: List[int], target: int) -> int:
+        return len([hour for hour in hours if hour >= target]) 
+               
