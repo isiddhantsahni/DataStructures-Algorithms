@@ -37,7 +37,7 @@ Constraints:
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Going through the list and counting if hour greater than target
 # Runtime -> 48 ms Beats 52.98%
 # Memory -> 16.28 MB Beats 72.53%
 
@@ -48,3 +48,6 @@ class Solution:
             if i >= target:
                 n+=1
         return n
+# Second Submission: Compact answer
+# Runtime -> 46 ms Beats 70.86%
+# Memory -> 16.26 MB Beats 72.53%
