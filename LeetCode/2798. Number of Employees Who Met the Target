@@ -40,3 +40,11 @@ Constraints:
 # First submission: 
 # Runtime -> 48 ms Beats 52.98%
 # Memory -> 16.28 MB Beats 72.53%
+
+class Solution:
+    def numberOfEmployeesWhoMetTarget(self, hours: List[int], target: int) -> int:
+        n = 0
+        for i in hours:
+            if i >= target:
+                n+=1
+        return n
