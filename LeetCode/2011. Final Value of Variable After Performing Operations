@@ -61,3 +61,7 @@ class Solution:
             elif '-' in operation:
                 X-=1
         return X
+
+# Second submission: Using Reduce to apply lambda function to each element in the list.
+# Runtime -> 
+# Memory -> 
