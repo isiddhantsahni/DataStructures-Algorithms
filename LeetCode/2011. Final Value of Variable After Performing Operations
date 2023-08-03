@@ -65,3 +65,7 @@ class Solution:
 # Second submission: Using Reduce to apply lambda function to each element in the list.
 # Runtime -> 67 ms Beats 66.77%
 # Memory -> 16.42 MB Beats 6.93%
+
+class Solution:
+    def finalValueAfterOperations(self, operations: List[str]) -> int:
+        return reduce(lambda a, b: a + (1 if b[1] == '+' else -1) , operations, 0)
