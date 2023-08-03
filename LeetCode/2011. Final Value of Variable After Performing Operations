@@ -63,5 +63,5 @@ class Solution:
         return X
 
 # Second submission: Using Reduce to apply lambda function to each element in the list.
-# Runtime -> 
-# Memory -> 
+# Runtime -> 67 ms Beats 66.77%
+# Memory -> 16.42 MB Beats 6.93%
