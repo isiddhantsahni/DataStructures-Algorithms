@@ -51,3 +51,13 @@ operations[i] will be either "++X", "X++", "--X", or "X--".
 # First submission: Check if the operation is '+' or '-' and do the operation on the variable.
 # Runtime -> 51 ms Beats 99.24%
 # Memory -> 16.25 MB Beats 75.10%
+
+class Solution:
+    def finalValueAfterOperations(self, operations: List[str]) -> int:
+        X=0
+        for operation in operations:
+            if '+' in operation:
+                X+=1
+            elif '-' in operation:
+                X-=1
+        return X
