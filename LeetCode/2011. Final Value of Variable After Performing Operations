@@ -48,6 +48,6 @@ operations[i] will be either "++X", "X++", "--X", or "X--".
 """
 
 #########################################################################################
-# First submission: 
-# Runtime -> 
-# Memory -> 
+# First submission: Check if the operation is '+' or '-' and do the operation on the variable.
+# Runtime -> 51 ms Beats 99.24%
+# Memory -> 16.25 MB Beats 75.10%
