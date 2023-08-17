@@ -43,3 +43,14 @@ n == candies.length
 # First submission: Checked the sum greater than or equal to the max value in candies array. If true, just adding True on the result array.
 # Runtime -> 44ms Beats 81.50%
 # Memory -> 16.20mb Beats 93.69%
+
+class Solution:
+    def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
+        result = [0]*len(candies)
+        for i,candy in enumerate(candies):
+            if candy + extraCandies >= max(candies):
+                result[i] = True
+            else:
+                result[i] = False
+        return result
+
