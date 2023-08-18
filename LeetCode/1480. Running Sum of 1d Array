@@ -44,4 +44,4 @@ class Solution:
 
 # Second submission: Adding sum to the existing array elements sequentially.
 # Runtime -> 50 ms Beats 66.72%
-# Memory -> 
+# Memory -> 16.44 MB Beats 83.49%
