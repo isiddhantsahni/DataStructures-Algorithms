@@ -41,3 +41,7 @@ class Solution:
             running_sum[i] = sum(nums[:i+1])
 
         return running_sum
+
+# Second submission: Adding sum to the existing array elements sequentially.
+# Runtime -> 50 ms Beats 66.72%
+# Memory -> 
