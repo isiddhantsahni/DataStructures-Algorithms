@@ -33,3 +33,11 @@ Constraints:
 # First submission: Appending sum of elements required to running_sum array
 # Runtime -> 55 ms Beats 46.06%
 # Memory -> 16.52 MB Beats 54.79%
+
+class Solution:
+    def runningSum(self, nums: List[int]) -> List[int]:
+        running_sum = [0]*len(nums)
+        for i,val in enumerate(nums):
+            running_sum[i] = sum(nums[:i+1])
+
+        return running_sum
