@@ -39,3 +39,12 @@ All the words in sentences[i] are separated by a single space.
 # First submission: Using len and split functions to count the words in a sentence, and then returning word count of the largest word sentence.
 # Runtime -> 52 ms Beats 65.80%
 # Memory -> 16.30 MB Beats 89.89%
+
+class Solution:
+    def mostWordsFound(self, sentences: List[str]) -> int:
+        word_count = 0
+        for sentence in sentences:
+            if len(sentence.split()) > word_count:
+                word_count = len(sentence.split())
+        
+        return word_count
