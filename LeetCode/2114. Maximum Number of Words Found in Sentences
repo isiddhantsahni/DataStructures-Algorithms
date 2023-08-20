@@ -36,6 +36,6 @@ All the words in sentences[i] are separated by a single space.
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Using len and split functions to count the words in a sentence, and then returning word count of the largest word sentence.
 # Runtime -> 
 # Memory -> 
