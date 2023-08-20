@@ -49,7 +49,7 @@ class Solution:
         
         return word_count
 
-# First submission: Counting space and returning the one with max spaces.
+# Second submission: Counting space and returning the one with max spaces.
 # Runtime -> 36 ms Beats 99.61%
 # Memory -> 16.39 MB Beats 63.83%
 
