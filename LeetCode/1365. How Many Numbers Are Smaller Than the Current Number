@@ -35,5 +35,5 @@ Constraints:
 
 #########################################################################################
 # First submission: 2 loops to check each element at a time, and count whatever element less than it. Finally add the count to the index of result array.
-# Runtime -> 
-# Memory -> 
+# Runtime -> 301 ms Beats 36.40%
+# Memory -> 16.45 MB Beats 29.08%
