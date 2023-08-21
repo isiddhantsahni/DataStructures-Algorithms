@@ -34,6 +34,6 @@ Constraints:
 """
 
 #########################################################################################
-# First submission: 
+# First submission: 2 loops to check each element at a time, and count whatever element less than it. Finally add the count to the index of result array.
 # Runtime -> 
 # Memory -> 
