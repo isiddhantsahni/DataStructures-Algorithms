@@ -52,3 +52,21 @@ class Solution:
 # Second submission: Using Dictionary.
 # Runtime -> 57 ms Beats 93.92%
 # Memory -> 16.46 MB Beats 29.08%
+
+class Solution:
+    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
+        result=[]
+        freq={}
+        temp=sorted(nums) #sort the list and stored in temp
+        #let's say nums=[8,1,2,2,3] then temp=[1,2,2,3,8]
+        
+        for i in range(len(temp)): 
+            if temp[i] not in freq:
+                #store index into dict which tells us how many smaller elements are present  
+                freq[temp[i]]=i     #freq={1:0,2:1,3:3,8:4}
+
+        for i in range(len(nums)): 
+            #iterate the nums so that value of dictionay append into result
+            result.append(freq[nums[i]])
+
+        return result 
