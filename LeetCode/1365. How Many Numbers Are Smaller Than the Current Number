@@ -34,7 +34,7 @@ Constraints:
 """
 
 #########################################################################################
-# First submission: 2 loops to check each element at a time, and count whatever element less than it. Finally add the count to the index of result array.
+# First submission: Brute Force - 2 loops to check each element at a time, and count whatever element less than it. Finally add the count to the index of result array.
 # Runtime -> 301 ms Beats 36.40%
 # Memory -> 16.45 MB Beats 29.08%
 
@@ -48,3 +48,7 @@ class Solution:
                     count+=1
             result[i]=count
         return result
+
+# Second submission: Using Dictionary.
+# Runtime -> 57 ms Beats 93.92%
+# Memory -> 16.46 MB Beats 29.08%
