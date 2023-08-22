@@ -49,3 +49,13 @@ class Solution:
                 if nums[i] + nums[j] < target:
                     count+=1
         return count
+
+# Second submission: Brute Force. Concise.
+# Runtime -> 57 ms Beats 48.96%
+# Memory -> 16.14 MB Beats 94.74%
+
+class Solution:
+    def countPairs(self, nums: List[int], target: int) -> int:
+
+        return sum(map(lambda x: x[0]+x[1] < target,
+                       combinations(nums, 2)))
