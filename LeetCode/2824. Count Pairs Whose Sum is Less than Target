@@ -59,3 +59,7 @@ class Solution:
 
         return sum(map(lambda x: x[0]+x[1] < target,
                        combinations(nums, 2)))
+
+# Third submission: Greedy.
+# Runtime -> 58 ms Beats 44.20%
+# Memory -> 16.34 MB Beats 36.88%
