@@ -63,3 +63,10 @@ class Solution:
 # First submission: Without using insert method.
 # Runtime -> 50 ms Beats 28.16%
 # Memory -> 16.29 MB Beats 69.97%
+
+class Solution:
+    def createTargetArray(self, nums: List[int], index: List[int]) -> List[int]:
+        target = []
+        for n,i in zip(nums,index): 
+            target[i:i] = [n]
+        return target
