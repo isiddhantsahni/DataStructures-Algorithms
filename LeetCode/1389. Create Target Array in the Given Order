@@ -61,5 +61,5 @@ class Solution:
         return target
 
 # First submission: Without using insert method.
-# Runtime -> 
-# Memory -> 
+# Runtime -> 50 ms Beats 28.16%
+# Memory -> 16.29 MB Beats 69.97%
