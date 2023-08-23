@@ -46,5 +46,5 @@ class Solution:
         return answer
 
 # First submission: Making it concise/one liner.
-# Runtime -> 211 ms Beats 31.39%
-# Memory -> 16.64 MB Beats 45.13%
+# Runtime -> 208 ms Beats 34.27%
+# Memory -> 16.61 MB Beats 45.13%
