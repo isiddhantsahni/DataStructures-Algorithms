@@ -52,3 +52,10 @@ nums.length == index.length
 # First submission: Using insert method.
 # Runtime -> 39 ms Beats 82.42%
 # Memory -> 16.18 MB Beats 94.61%
+
+class Solution:
+    def createTargetArray(self, nums: List[int], index: List[int]) -> List[int]:
+        target = []
+        for i in range(len(nums)):
+            target.insert(index[i],nums[i])
+        return target
