@@ -35,5 +35,5 @@ Constraints:
 
 #########################################################################################
 # First submission: Subtracting values of left and right sum of element. Taking the absolute value of difference, appending to an array.
-# Runtime -> 
-# Memory ->
+# Runtime -> 211 ms Beats 31.39%
+# Memory -> 16.64 MB Beats 45.13%
