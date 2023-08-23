@@ -45,7 +45,7 @@ class Solution:
             answer[i] = abs(sum(nums[:i + 1]) - sum(nums[i:]))
         return answer
 
-# First submission: Making it concise/one liner.
+# Second submission: Making it concise/one liner.
 # Runtime -> 208 ms Beats 34.27%
 # Memory -> 16.61 MB Beats 45.13%
 
