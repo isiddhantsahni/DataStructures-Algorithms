@@ -49,6 +49,6 @@ nums.length == index.length
 """
 
 #########################################################################################
-# First submission: 
-# Runtime ->
-# Memory -> 
+# First submission: Using insert method.
+# Runtime -> 39 ms Beats 82.42%
+# Memory -> 16.18 MB Beats 94.61%
