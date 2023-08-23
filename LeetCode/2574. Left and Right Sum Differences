@@ -44,3 +44,7 @@ class Solution:
         for i in range(len(nums)):
             answer[i] = abs(sum(nums[:i + 1]) - sum(nums[i:]))
         return answer
+
+# First submission: Making it concise/one liner.
+# Runtime -> 211 ms Beats 31.39%
+# Memory -> 16.64 MB Beats 45.13%
