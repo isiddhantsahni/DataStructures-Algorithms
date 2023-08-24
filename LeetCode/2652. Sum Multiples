@@ -32,4 +32,4 @@ Constraints:
 #########################################################################################
 # First submission: Checking if number is divisible by 3,5 or 7 and adding it to the sum variable.
 # Runtime -> 78 ms Beats 64.11%
-# Memory -> 
+# Memory -> 16.32 MB Beats 23.05%
