@@ -33,3 +33,10 @@ All values of indices are unique.
 # First submission: Using enumerate
 # Runtime -> 54 ms Beats 90.51%
 # Memory -> 16.38 MB Beats 51.05%
+
+class Solution:
+    def restoreString(self, s: str, indices: List[int]) -> str:
+        res = [''] * len(s)
+        for index, char in enumerate(s):
+            res[indices[index]] = char
+        return "".join(res)
