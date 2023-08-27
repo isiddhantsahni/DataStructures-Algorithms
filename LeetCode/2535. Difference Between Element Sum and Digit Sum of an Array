@@ -90,5 +90,5 @@ class Solution:
         return abs(sum1 - sum2)
 
 # Fourth submission: Using Map
-# Runtime -> 129 ms Beats 68.52%
-# Memory -> 
+# Runtime -> 114 ms Beats 94.60%
+# Memory -> 16.53 MB Beats 74.87%
