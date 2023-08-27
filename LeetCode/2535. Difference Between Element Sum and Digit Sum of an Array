@@ -88,3 +88,7 @@ class Solution:
             for j in str(i):
                 sum2 += int(j)
         return abs(sum1 - sum2)
+
+# Fourth submission: Using Map
+# Runtime -> 129 ms Beats 68.52%
+# Memory -> 
