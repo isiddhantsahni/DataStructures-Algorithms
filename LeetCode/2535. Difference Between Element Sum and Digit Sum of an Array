@@ -79,3 +79,12 @@ class Solution:
 # Third submission: Making it simpler and concise.
 # Runtime -> 129 ms Beats 68.52%
 # Memory -> 16.72 MB Beats 11.53%
+
+class Solution:
+    def differenceOfSum(self, nums: List[int]) -> int:
+        sum1 = sum(nums)
+        sum2 = 0
+        for i in nums:
+            for j in str(i):
+                sum2 += int(j)
+        return abs(sum1 - sum2)
