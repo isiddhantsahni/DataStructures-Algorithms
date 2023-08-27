@@ -56,3 +56,7 @@ class Solution:
                 single_sum += sum(split_list)
 
         return abs(sum_ - single_sum)
+
+# First submission: Only making single loop for adding values.
+# Runtime -> 154 ms Beats 26.25%
+# Memory -> 16.64 MB Beats 43.91%
