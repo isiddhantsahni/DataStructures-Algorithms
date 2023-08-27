@@ -92,3 +92,8 @@ class Solution:
 # Fourth submission: Using Map
 # Runtime -> 114 ms Beats 94.60%
 # Memory -> 16.53 MB Beats 74.87%
+
+class Solution:
+    def differenceOfSum(self, nums: List[int]) -> int:
+        a = map(int, list(''.join(map(str, nums))))
+        return abs(sum(nums) - sum(a))
