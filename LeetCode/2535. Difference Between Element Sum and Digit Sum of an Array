@@ -60,3 +60,18 @@ class Solution:
 # First submission: Only making single loop for adding values.
 # Runtime -> 154 ms Beats 26.25%
 # Memory -> 16.64 MB Beats 43.91%
+
+class Solution:
+    def differenceOfSum(self, nums: List[int]) -> int:
+        sum_ = 0
+        single_sum = 0
+
+        for i in nums:
+            sum_+=i
+            if len(str(i))==1:
+                single_sum+=i
+            elif len(str(i))>1:
+                split_list = [int(x) for x in str(i)]
+                single_sum += sum(split_list)
+
+        return abs(sum_ - single_sum)
