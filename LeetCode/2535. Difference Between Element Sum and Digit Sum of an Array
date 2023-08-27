@@ -57,7 +57,7 @@ class Solution:
 
         return abs(sum_ - single_sum)
 
-# First submission: Only making single loop for adding values.
+# Second submission: Only making single loop for adding values.
 # Runtime -> 154 ms Beats 26.25%
 # Memory -> 16.64 MB Beats 43.91%
 
@@ -75,3 +75,7 @@ class Solution:
                 single_sum += sum(split_list)
 
         return abs(sum_ - single_sum)
+
+# Third submission: Making it simpler and concise.
+# Runtime -> 129 ms Beats 68.52%
+# Memory -> 16.72 MB Beats 11.53%
