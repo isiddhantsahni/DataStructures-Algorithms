@@ -42,5 +42,10 @@ There are no leading or trailing spaces.
 #########################################################################################
 # First submission: Spliting and merging after removing the words.
 # Runtime -> 29 ms Beats 97.94%
-# Memory -> 16.17MB
-Beats 94.63%
+# Memory -> 16.17 MB Beats 94.63%
+
+class Solution:
+    def truncateSentence(self, s: str, k: int) -> str:
+        s_ = s.split(" ")
+        s_final = ' '.join(s_[:k])
+        return s_final
