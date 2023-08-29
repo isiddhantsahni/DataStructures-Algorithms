@@ -60,3 +60,7 @@ class Solution:
                 res += sum(arr[i:i + l])
                 # print("arr[i:i + l]: ",arr[i:i + l])
         return res
+
+# Second submission: 
+# Runtime -> 
+# Memory -> 
