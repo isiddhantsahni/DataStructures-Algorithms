@@ -46,6 +46,5 @@ Could you solve this problem in O(n) time complexity?
 
 #########################################################################################
 # First submission: Brute force approach
-# Runtime -> 70ms
-Beats 48.98%
-# Memory ->
+# Runtime -> 70 ms Beats 48.98%
+# Memory -> 16.31 MB Beats 34.37%
