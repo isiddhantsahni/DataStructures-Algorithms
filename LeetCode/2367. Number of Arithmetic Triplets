@@ -48,3 +48,7 @@ class Solution:
                 cnt += 1
             seen.add(num)
         return cnt
+
+# Second submission: Concise.
+# Runtime -> 
+# Memory -> 
