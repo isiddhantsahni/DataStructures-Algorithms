@@ -50,5 +50,5 @@ class Solution:
         return cnt
 
 # Second submission: Concise.
-# Runtime -> 
+# Runtime -> 47 ms Beats 76.31%
 # Memory -> 
