@@ -51,4 +51,4 @@ class Solution:
 
 # Second submission: Concise.
 # Runtime -> 47 ms Beats 76.31%
-# Memory -> 
+# Memory -> 16.37 MB Beats 33.20%
