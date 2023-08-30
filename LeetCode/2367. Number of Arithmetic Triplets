@@ -52,3 +52,8 @@ class Solution:
 # Second submission: Concise.
 # Runtime -> 47 ms Beats 76.31%
 # Memory -> 16.37 MB Beats 33.20%
+
+class Solution:
+    def arithmeticTriplets(self, nums: List[int], diff: int) -> int:
+        seen = set(nums)
+        return sum(num - diff in seen and num - diff * 2 in seen for num in seen)
