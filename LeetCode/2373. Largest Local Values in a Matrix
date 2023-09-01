@@ -50,7 +50,5 @@ class Solution:
         return res
 
 # Second submission: Using product and making solution concise.
-# Runtime -> 146ms
-Beats 64.90%
-# Memory -> 16.80MB
-Beats 93.36%
+# Runtime -> 146 ms Beats 64.90%
+# Memory -> 16.80 MB Beats 93.36%
