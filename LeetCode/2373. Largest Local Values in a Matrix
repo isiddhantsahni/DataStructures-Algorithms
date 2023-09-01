@@ -48,3 +48,7 @@ class Solution:
                 res[i][j] = max([grid[r][c] for r in range(i, i+3) for c in range(j, j+3)])
 
         return res
+
+# Second submission: Using product and making solution concise.
+# Runtime -> 
+# Memory -> 
