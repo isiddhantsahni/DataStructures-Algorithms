@@ -36,5 +36,7 @@ n == grid.length == grid[i].length
 
 #########################################################################################
 # First submission: Brute Force
-# Runtime -> 
-# Memory -> 
+# Runtime -> 136ms
+Beats 78.02%
+# Memory -> 16.83MB
+Beats 69.91%
