@@ -51,5 +51,7 @@ class Solution:
         return ans==s    
 
 # Second submission: Making it concise/one-liner.
-# Runtime -> 
-# Memory ->
+# Runtime -> 58ms
+Beats 66.44%
+# Memory ->16.42MB
+Beats 35.97%
