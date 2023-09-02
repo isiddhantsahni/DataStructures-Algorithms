@@ -38,6 +38,6 @@ words[i] and s consist of lowercase English letters.
 """
 
 #########################################################################################
-# First submission:
+# First submission: Make string of first character of each word and compare with given string.
 # Runtime -> 
 # Memory ->
