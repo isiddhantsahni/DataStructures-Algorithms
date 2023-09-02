@@ -41,3 +41,11 @@ words[i] and s consist of lowercase English letters.
 # First submission: Make string of first character of each word and compare with given string.
 # Runtime -> 51 ms Beats 94.08%
 # Memory ->16.27 MB Beats 70.84%
+
+
+class Solution:
+    def isAcronym(self, words: List[str], s: str) -> bool:
+        ans=""
+        for word in words:
+            ans+=word[0]
+        return ans==s    
