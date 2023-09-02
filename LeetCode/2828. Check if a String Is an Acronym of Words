@@ -50,6 +50,6 @@ class Solution:
             ans+=word[0]
         return ans==s    
 
-# Second submission: 
+# Second submission: Making it concise/one-liner.
 # Runtime -> 
 # Memory ->
