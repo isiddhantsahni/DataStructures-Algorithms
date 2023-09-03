@@ -41,6 +41,6 @@ Constraints:
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Brute force 
 # Runtime -> 176 ms Beats 55.26%
-# Memory ->
+# Memory -> 16.4 MB Beats 37.99%
