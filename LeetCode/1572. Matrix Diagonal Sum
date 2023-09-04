@@ -38,5 +38,6 @@ n == mat.length == mat[i].length
 
 #########################################################################################
 # First submission: Adding diagonal elements. If matrix has odd number means left right diagonal intersect, then subtracting the intersecting element.
-# Runtime -> 
+# Runtime -> 102ms
+Beats 83.07%
 # Memory ->
