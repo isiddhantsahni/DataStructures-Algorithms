@@ -40,3 +40,20 @@ n == mat.length == mat[i].length
 # First submission: Adding diagonal elements. If matrix has odd number means left right diagonal intersect, then subtracting the intersecting element.
 # Runtime -> 102 ms Beats 83.07%
 # Memory -> 16.53 MB Beats 75.43%
+
+class Solution:
+    def diagonalSum(self, mat: List[List[int]]) -> int:
+        res = 0 
+        n = len(mat)
+        # iterate over all the elements
+        for i in range(n):
+            # add primary diagonal elements
+            res += mat[i][i]
+            # add secondary diagonal elements
+            res += mat[n-1-i][i]
+        
+        # if the matrix has odd number of rows and columns then
+        # matrix has common element between primary and secondary diagonal 
+        # so just substract that once from res and if not then just return the result. 
+        if n % 2 != 0: res -= mat[n//2][n//2]
+        return res
