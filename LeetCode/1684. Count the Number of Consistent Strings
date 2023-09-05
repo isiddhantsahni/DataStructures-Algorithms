@@ -37,3 +37,16 @@ words[i] and allowed contain only lowercase English letters.
 # First submission: Using Set
 # Runtime -> 214 ms Beats 97.88%
 # Memory -> 18.28 MB Beats 98.13%
+
+class Solution:
+    def countConsistentStrings(self, allowed: str, words: List[str]) -> int:
+        allowed = set(allowed)
+        count = 0
+        
+        for word in words:
+            for letter in word:
+                if letter not in allowed:
+                    count += 1
+                    break
+        
+        return len(words) - count
