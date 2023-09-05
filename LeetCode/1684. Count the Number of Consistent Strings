@@ -35,5 +35,7 @@ words[i] and allowed contain only lowercase English letters.
 
 #########################################################################################
 # First submission: Using Set
-# Runtime -> 
-# Memory -> 
+# Runtime -> 214ms
+Beats 97.88%
+# Memory -> 18.28MB
+Beats 98.13%
