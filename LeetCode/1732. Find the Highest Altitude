@@ -38,6 +38,6 @@ class Solution:
             arr.append(gain[i]+arr[i])
         return max(arr)
 
-# Second submission:
+# Second submission: Instead of creating another list, using the same one.
 # Runtime -> 
 # Memory ->
