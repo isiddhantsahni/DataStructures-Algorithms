@@ -27,6 +27,6 @@ n == gain.length
 """
 
 #########################################################################################
-# First submission:
+# First submission: Adding elements and returning the max altitude.
 # Runtime -> 
 # Memory ->
