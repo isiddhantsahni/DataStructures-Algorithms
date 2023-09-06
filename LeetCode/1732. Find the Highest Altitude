@@ -29,7 +29,7 @@ n == gain.length
 #########################################################################################
 # First submission: Adding elements and returning the max altitude.
 # Runtime -> 40 ms Beats 80.34%
-# Memory ->16.20 MB Beats 64.57%
+# Memory -> 16.20 MB Beats 64.57%
 
 class Solution:
     def largestAltitude(self, gain: List[int]) -> int:
@@ -37,3 +37,7 @@ class Solution:
         for i in range(0,len(gain)):
             arr.append(gain[i]+arr[i])
         return max(arr)
+
+# Second submission:
+# Runtime -> 
+# Memory ->
