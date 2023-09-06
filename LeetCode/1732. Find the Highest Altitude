@@ -39,7 +39,6 @@ class Solution:
         return max(arr)
 
 # Second submission: Instead of creating another list, using the same one.
-# Runtime -> 40ms
-Beats 80.34%
-# Memory -> 16.16MB
-Beats 90.41%
+# Runtime -> 40 ms Beats 80.34%
+# Memory -> 16.16 MB Beats 90.41%
+
