@@ -28,7 +28,5 @@ n == gain.length
 
 #########################################################################################
 # First submission: Adding elements and returning the max altitude.
-# Runtime -> 40ms
-Beats 80.34%
-# Memory ->16.20MB
-Beats 64.57%
+# Runtime -> 40 ms Beats 80.34%
+# Memory ->16.20 MB Beats 64.57%
