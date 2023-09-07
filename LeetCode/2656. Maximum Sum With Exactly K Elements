@@ -41,7 +41,5 @@ Constraints:
 
 #########################################################################################
 # First submission: Selecting max in array and adding 1 to it k times.
-# Runtime -> 153ms
-Beats 91.82%
-# Memory -> 16.21MB
-Beats 72.21%
+# Runtime -> 153 ms Beats 91.82%
+# Memory -> 16.21 MB Beats 72.21%
