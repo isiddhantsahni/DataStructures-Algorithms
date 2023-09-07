@@ -40,7 +40,7 @@ Constraints:
 """
 
 #########################################################################################
-# First submission: Selecting max in array and adding 1 to it k times.
+# First submission: Making it one liner.
 # Runtime -> 153 ms Beats 91.82%
 # Memory -> 16.21 MB Beats 72.21%
 
