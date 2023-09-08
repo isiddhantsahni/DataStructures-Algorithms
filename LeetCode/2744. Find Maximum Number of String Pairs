@@ -48,4 +48,6 @@ words[i] contains only lowercase English letters.
 # Runtime -> 61 ms
 Beats
 46.22%
-# Memory -> 
+# Memory -> 16.4 MB
+Beats
+32.14%
