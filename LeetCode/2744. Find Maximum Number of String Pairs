@@ -56,3 +56,10 @@ class Solution:
                 if words[i]==words[j][::-1]:
                     c+=1
         return c
+
+# Second submission: 
+# Runtime -> 
+# Memory -> 
+54 ms
+Beats
+75.57%
