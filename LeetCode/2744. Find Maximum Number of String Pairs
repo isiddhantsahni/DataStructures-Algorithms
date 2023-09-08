@@ -58,5 +58,9 @@ class Solution:
         return c
 
 # Second submission: using dictionary 
-# Runtime -> 
-# Memory -> 
+# Runtime -> 54 ms
+Beats
+75.57%
+# Memory -> 16.2 MB
+Beats
+92.98%
