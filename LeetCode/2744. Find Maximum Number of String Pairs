@@ -57,9 +57,6 @@ class Solution:
                     c+=1
         return c
 
-# Second submission: 
+# Second submission: using dictionary 
 # Runtime -> 
 # Memory -> 
-54 ms
-Beats
-75.57%
