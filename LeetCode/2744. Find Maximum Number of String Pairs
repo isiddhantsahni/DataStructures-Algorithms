@@ -44,6 +44,8 @@ words[i] contains only lowercase English letters.
 """
 
 #########################################################################################
-# First submission: 
-# Runtime -> 
+# First submission: Greedy solution.
+# Runtime -> 61 ms
+Beats
+46.22%
 # Memory -> 
