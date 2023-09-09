@@ -36,7 +36,5 @@ images[i][j] is either 0 or 1.
 
 #########################################################################################
 # First submission: Inverse and then replace
-# Runtime -> 59ms
-Beats 44.70%
-# Memory -> 16.27MB
-Beats 77.07%
+# Runtime -> 59 ms Beats 44.70%
+# Memory -> 16.27 MB Beats 77.07%
