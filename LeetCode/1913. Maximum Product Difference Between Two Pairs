@@ -34,3 +34,8 @@ Constraints:
 # First submission: Sorting and finding the largest.
 # Runtime -> 164 ms Beats 48.65%
 # Memory -> 17.75 MB Beats 53.38%
+
+class Solution:
+    def maxProductDifference(self, nums: List[int]) -> int:
+        nums.sort()
+        return nums[len(nums)-1]*nums[len(nums)-2]-nums[0]*nums[1]
