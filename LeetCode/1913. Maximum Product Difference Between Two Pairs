@@ -32,5 +32,7 @@ Constraints:
 
 #########################################################################################
 # First submission: Sorting and finding the largest.
-# Runtime -> 
-# Memory ->
+# Runtime -> 164ms
+Beats 48.65%
+# Memory -> 17.75MB
+Beats 53.38%
