@@ -41,5 +41,6 @@ words[i] consists of lowercase English letters.
 
 #########################################################################################
 # First submission: Using dictionary and set to give back unique strings.
-# Runtime -> 
-# Memory -> 
+# Runtime -> 41ms Beats 70.28%
+# Memory -> 16.12MB
+Beats 84.39%
