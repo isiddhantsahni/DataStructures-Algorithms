@@ -40,6 +40,6 @@ words[i] consists of lowercase English letters.
 """
 
 #########################################################################################
-# First submission: Using Binary function to convery the index to binary value
-# Runtime -> 86ms Beats 41.08%
-# Memory -> 16.26MB Beats 95.45%
+# First submission: Using dictionary and set to give back unique strings.
+# Runtime -> 
+# Memory -> 
