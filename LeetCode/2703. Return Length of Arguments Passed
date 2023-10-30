@@ -30,6 +30,5 @@ args is a valid JSON array
 
 #########################################################################################
 # First submission: One liner
-# Runtime -> 59ms
-Beats 10.40%
-# Memory -> 
+# Runtime -> 59 ms Beats 10.40%
+# Memory -> 42.16 MB Beats 19.24%
