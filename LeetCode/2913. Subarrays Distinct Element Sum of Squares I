@@ -43,7 +43,5 @@ Constraints:
 
 #########################################################################################
 # First submission: Using set to find unique number of elements in the subarray.
-# Runtime -> 215ms
-Beats 25.51%
-# Memory -> 16.39MB
-Beats 23.56%
+# Runtime -> 215ms Beats 25.51%
+# Memory -> 16.39MB Beats 23.56%
