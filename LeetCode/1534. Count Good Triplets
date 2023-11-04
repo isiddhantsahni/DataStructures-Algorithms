@@ -36,5 +36,7 @@ Constraints:
 
 #########################################################################################
 # First submission: Using three loops and checking the conditions
-# Runtime -> 
-# Memory ->
+# Runtime -> 1346ms
+Beats 5.06%
+# Memory -> 16.31MB
+Beats 24.29%
