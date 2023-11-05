@@ -28,5 +28,5 @@ Constraints:
 
 #########################################################################################
 # First submission: Using two loops to find the max value
-# Runtime -> 347ms Beats 9.00%
-# Memory -> 16.25MB Beats 64.79%
+# Runtime -> 347 ms Beats 9.00%
+# Memory -> 16.25 MB Beats 64.79%
