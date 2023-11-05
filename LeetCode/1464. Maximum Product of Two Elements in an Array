@@ -41,5 +41,7 @@ class Solution:
                     max = temp
 
         return max
-
         
+# Second submission: Using two loops to find the max value
+# Runtime -> 347 ms Beats 9.00%
+# Memory -> 16.25 MB Beats 64.79%
