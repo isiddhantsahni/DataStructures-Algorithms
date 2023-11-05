@@ -42,6 +42,6 @@ class Solution:
 
         return max
         
-# Second submission: Using two loops to find the max value
-# Runtime -> 347 ms Beats 9.00%
-# Memory -> 16.25 MB Beats 64.79%
+# Second submission: Sorting and using the last two elements(As by theory they'll return the max product, as no negative values are present)
+# Runtime -> 
+# Memory -> 
