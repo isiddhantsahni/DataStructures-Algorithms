@@ -43,5 +43,5 @@ class Solution:
         return max
         
 # Second submission: Sorting and using the last two elements(As by theory they'll return the max product, as no negative values are present)
-# Runtime -> 
-# Memory -> 
+# Runtime -> 48ms Beats 93.92%
+# Memory -> 16.40MB Beats 7.36%
