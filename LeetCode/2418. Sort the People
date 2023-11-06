@@ -61,4 +61,7 @@ class Solution:
 # Third submission: One liner using zip
 # Runtime -> 125 ms Beats 23.87%
 # Memory -> 16.70 MB Beats 92.44%
-        
+
+# Fourth submission: Using zip and sorted.
+# Runtime -> 112ms Beats 73.16%
+# Memory -> 16.90MB Beats 43.24%
