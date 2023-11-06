@@ -59,8 +59,8 @@ class Solution:
         return [name for height,name in res]
 
 # Third submission: One liner using zip
-# Runtime -> 120 ms Beats 23.87%
-# Memory -> 16.70 MB Beats 92.44%
+# Runtime -> 120 ms Beats 35.29%
+# Memory -> 16.9 6MB Beats 14.40%
 
 class Solution:
     def sortPeople(self, names: List[str], heights: List[int]) -> List[str]:
