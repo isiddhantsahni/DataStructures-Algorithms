@@ -36,3 +36,13 @@ All the values of heights are distinct.
 # Runtime -> 
 # Memory -> 
 
+class Solution:
+    def sortPeople(self, names: List[str], heights: List[int]) -> List[str]:
+        for i in range(len(heights)):
+            if i < len(heights)-1:
+                if heights[i]<heights[i+1]:
+                    temp = names[i+1]
+                    names[i+1] = names[i]
+                    names[i] = temp
+        return names
+        
