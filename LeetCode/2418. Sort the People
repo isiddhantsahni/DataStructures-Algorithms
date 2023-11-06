@@ -65,3 +65,9 @@ class Solution:
 # Fourth submission: Using zip and sorted.
 # Runtime -> 112ms Beats 73.16%
 # Memory -> 16.90MB Beats 43.24%
+
+class Solution:
+    def sortPeople(self, names: List[str], heights: List[int]) -> List[str]:
+        l = zip(names, heights)
+        l = sorted(l, key=lambda x: x[1], reverse=True)
+        return [i[0] for i in l]
