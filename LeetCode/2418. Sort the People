@@ -47,5 +47,7 @@ class Solution:
         return names
 
 # Second submission: Using a third list, sorted it and returned the names.
-# Runtime -> 
-# Memory -> 
+# Runtime -> 125ms
+Beats 23.87%
+# Memory -> 16.70MB
+Beats 92.44%
