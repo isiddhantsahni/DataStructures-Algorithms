@@ -32,6 +32,7 @@ All the values of heights are distinct.
 """
 
 #########################################################################################
-# First submission: Using set to find unique number of elements in the subarray.
-# Runtime -> 215 ms Beats 25.51%
-# Memory -> 16.39 MB Beats 23.56%
+# First submission: 2 Testcases passed, submitted and found that only 6/68 testcases passed at the end. Wrong answer.
+# Runtime -> 
+# Memory -> 
+
