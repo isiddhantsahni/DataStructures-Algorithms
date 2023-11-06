@@ -47,8 +47,8 @@ class Solution:
         return names
 
 # Second submission: Using a third list, sorted it and returned the names.
-# Runtime -> 125ms Beats 23.87%
-# Memory -> 16.70MB Beats 92.44%
+# Runtime -> 125 ms Beats 23.87%
+# Memory -> 16.70 MB Beats 92.44%
 
 class Solution:
     def sortPeople(self, names: List[str], heights: List[int]) -> List[str]:
