@@ -57,4 +57,8 @@ class Solution:
             res.append([heights[i],names[i]])
         res = sorted(res,reverse=True)
         return [name for height,name in res]
+
+# Third submission: One liner using zip
+# Runtime -> 125 ms Beats 23.87%
+# Memory -> 16.70 MB Beats 92.44%
         
