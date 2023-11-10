@@ -40,6 +40,7 @@ class Solution:
                 if nums[i] == nums[j] and (i*j)%k==0:
                     count+=1
         return count
+
 # Second submission: Using dictionary
-# Runtime -> 
-# Memory -> 
+# Runtime -> 61ms Beats 94.04%
+# Memory -> 16.20MB Beats 73.48%
