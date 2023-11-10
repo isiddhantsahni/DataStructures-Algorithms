@@ -29,5 +29,5 @@ Constraints:
 
 #########################################################################################
 # First submission: Using two loops and checking the two conditions.
-# Runtime -> 81ms Beats 69.83%o
-# Memory -> 16.08MB Beats 93.92%
+# Runtime -> 81 ms Beats 69.83%o
+# Memory -> 16.08 MB Beats 93.92%
