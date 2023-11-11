@@ -56,5 +56,5 @@ class Solution:
         return sum1
 
 # Third submission: One liner.
-# Runtime -> 
-# Memory -> 
+# Runtime -> 65ms Beats 69.45%
+# Memory -> 16.29MB Beats 30.96%
