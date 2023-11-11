@@ -43,6 +43,6 @@ class Solution:
                 sum1 += nums[i]**2
         return sum1
      
-# Second submission: 
+# Second submission: Removed the assignment of len(nums) to save up on memory. But this increased the runtime.
 # Runtime -> 
 # Memory ->
