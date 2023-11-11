@@ -44,5 +44,7 @@ class Solution:
         return sum1
      
 # Second submission: Removed the assignment of len(nums) to save up on memory. But this increased the runtime.
-# Runtime -> 
-# Memory ->
+# Runtime -> 70ms
+Beats 38.77%
+# Memory -> 16.12MB
+Beats 66.30%
