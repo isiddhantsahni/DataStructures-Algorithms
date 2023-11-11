@@ -33,3 +33,14 @@ Constraints:
 # First submission: Looping and checking the condition for n % (i+1) == 0, and square & summing the element.
 # Runtime -> 65 ms Beats 69.45%
 # Memory -> 16.23 MB Beats 30.96%
+
+class Solution:
+    def sumOfSquares(self, nums: List[int]) -> int:
+        n = len(nums)
+        sum1 = 0 
+        for i in range(0,n):
+            if n % (i+1) == 0:
+                sum1 += nums[i]**2
+        return sum1
+
+        
