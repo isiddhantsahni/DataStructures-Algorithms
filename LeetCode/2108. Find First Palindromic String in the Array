@@ -34,5 +34,6 @@ words[i] consists only of lowercase English letters.
 
 #########################################################################################
 # First submission: 
-# Runtime -> 
+# Runtime -> 73ms
+Beats 93.03%
 # Memory -> 
