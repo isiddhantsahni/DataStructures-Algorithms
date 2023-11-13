@@ -33,7 +33,7 @@ words[i] consists only of lowercase English letters.
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Simple Splicing to reverse and check.
 # Runtime -> 73ms
 Beats 93.03%
 # Memory -> 16.42MB
