@@ -36,4 +36,5 @@ words[i] consists only of lowercase English letters.
 # First submission: 
 # Runtime -> 73ms
 Beats 93.03%
-# Memory -> 
+# Memory -> 16.42MB
+Beats 18.11%
