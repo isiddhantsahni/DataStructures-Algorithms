@@ -54,4 +54,5 @@ class Solution:
 # Second submission: Using set
 # Runtime -> 152ms
 Beats 88.44%
-# Memory ->
+# Memory -> 16.88MB
+Beats 25.05% 
