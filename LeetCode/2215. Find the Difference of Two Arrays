@@ -61,6 +61,6 @@ class Solution:
         list2=set(nums2)-set(nums1)
         return [list1,list2]
 
-# Second submission: 
+# Third submission: Making it one-liner
 # Runtime -> 
 # Memory -> 
