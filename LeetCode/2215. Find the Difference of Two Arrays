@@ -54,3 +54,9 @@ class Solution:
 # Second submission: Using set
 # Runtime -> 152 ms Beats 88.44%
 # Memory -> 16.88 MB Beats 25.05% 
+
+class Solution:
+    def findDifference(self, nums1: List[int], nums2: List[int]) -> List[List[int]]:
+        list1=set(nums1)-set(nums2)
+        list2=set(nums2)-set(nums1)
+        return [list1,list2]
