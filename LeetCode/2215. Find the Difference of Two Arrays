@@ -52,7 +52,5 @@ class Solution:
         return list1
         
 # Second submission: Using set
-# Runtime -> 152ms
-Beats 88.44%
-# Memory -> 16.88MB
-Beats 25.05% 
+# Runtime -> 152 ms Beats 88.44%
+# Memory -> 16.88 MB Beats 25.05% 
