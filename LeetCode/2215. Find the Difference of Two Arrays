@@ -62,5 +62,7 @@ class Solution:
         return [list1,list2]
 
 # Third submission: Making it one-liner
-# Runtime -> 
-# Memory -> 
+# Runtime -> 169ms
+Beats 33.78%
+# Memory -> 16.92MB
+Beats 25.05%
