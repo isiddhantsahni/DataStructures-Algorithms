@@ -60,3 +60,7 @@ class Solution:
         list1=set(nums1)-set(nums2)
         list2=set(nums2)-set(nums1)
         return [list1,list2]
+
+# Second submission: 
+# Runtime -> 
+# Memory -> 
