@@ -33,5 +33,5 @@ Constraints:
 
 #########################################################################################
 # First submission: Very inefficient solution, iteration over the arrays and then checking if the element exist in the other or not, and making the required list.
-# Runtime -> 679ms Beats 6.65%
-# Memory -> 16.84MB Beats 25.05%
+# Runtime -> 679 ms Beats 6.65%
+# Memory -> 16.84 MB Beats 25.05%
