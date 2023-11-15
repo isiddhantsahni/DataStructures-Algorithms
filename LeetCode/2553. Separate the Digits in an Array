@@ -34,5 +34,6 @@ Constraints:
 
 #########################################################################################
 # First submission: Using loop to split the digits and inserting into temp list.
-# Runtime -> 
+# Runtime -> 64ms
+Beats 84.65%
 # Memory -> 
