@@ -36,3 +36,14 @@ Constraints:
 # First submission: Using loop to split the digits and inserting into temp list.
 # Runtime -> 64 ms Beats 84.65%
 # Memory -> 17.02 MB Beats 16.78%
+
+class Solution:
+    def separateDigits(self, nums: List[int]) -> List[int]:
+        list1 = []
+        for i in nums:
+            list2 = []
+            while i>0:
+                list2.insert(0,i%10)
+                i=i//10
+            list1+=list2
+        return list1
