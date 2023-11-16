@@ -43,7 +43,5 @@ n == grid[i].length
 
 #########################################################################################
 # First submission: Using sort
-# Runtime -> 96ms
-Beats 70.44%
-# Memory -> 16.48MB
-Beats 20.66%
+# Runtime -> 96 ms Beats 70.44%
+# Memory -> 16.48 MB Beats 20.66%
