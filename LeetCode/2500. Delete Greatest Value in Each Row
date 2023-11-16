@@ -45,3 +45,17 @@ n == grid[i].length
 # First submission: Using sort
 # Runtime -> 96 ms Beats 70.44%
 # Memory -> 16.48 MB Beats 20.66%
+
+class Solution:
+    def deleteGreatestValue(self, grid: List[List[int]]) -> int:
+        for i in range(0, len(grid)):
+            grid[i].sort()
+        n = len(grid[0])
+        res = 0
+        for j in range(0, n):
+            ans = 0
+            for i in range(0, len(grid)):
+                ans = max(ans, grid[i].pop())
+            res += ans
+            
+        return res
