@@ -29,3 +29,6 @@ words[i] and pref consist of lowercase English letters.
 """
 
 #########################################################################################
+# First submission: Looping and checking the condition for n % (i+1) == 0, and square & summing the element.
+# Runtime -> 65 ms Beats 69.45%
+# Memory -> 16.23 MB Beats 30.96%
