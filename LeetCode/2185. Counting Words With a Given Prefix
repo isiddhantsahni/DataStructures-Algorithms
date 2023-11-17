@@ -43,14 +43,8 @@ class Solution:
         return count
         
 # Second submission: One-liner
-# Runtime -> 50
-ms
-Beats
-45.77%
-# Memory ->16.50
-MB
-Beats
-17.47%
+# Runtime -> 50 ms Beats 45.77%
+# Memory ->16.50 MB Beats 17.47%
 
 class Solution:
     def prefixCount(self, words: List[str], pref: str) -> int:
