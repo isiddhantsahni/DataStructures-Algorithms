@@ -30,12 +30,10 @@ words[i] and pref consist of lowercase English letters.
 
 #########################################################################################
 # First submission: Checking if string starts with prefix in a loop to get count.
-# Runtime -> 43
-ms
+# Runtime -> 43 ms
 Beats
 84.66%
-# Memory -> 16.36
-MB
+# Memory -> 16.36 MB
 Beats
 53.20%
 
