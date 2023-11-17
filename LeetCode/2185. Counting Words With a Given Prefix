@@ -29,6 +29,6 @@ words[i] and pref consist of lowercase English letters.
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Checking if string starts with prefix in a loop to get count.
 # Runtime -> 
 # Memory -> 
