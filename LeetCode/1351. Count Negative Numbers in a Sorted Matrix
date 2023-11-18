@@ -42,6 +42,6 @@ class Solution:
 
         return count
 
-# Second submission: 
+# Second submission: More optimal solution, O(n + m) solution
 # Runtime -> 
 # Memory -> 
