@@ -43,5 +43,5 @@ class Solution:
         return count
 
 # Second submission: More optimal solution, O(n + m) solution
-# Runtime -> 
-# Memory -> 
+# Runtime -> 125 ms Beats 7.08%
+# Memory -> 17.51 MB Beats 6.36%
