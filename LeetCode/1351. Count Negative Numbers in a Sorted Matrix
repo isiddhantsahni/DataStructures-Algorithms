@@ -28,6 +28,6 @@ Follow up: Could you find an O(n + m) solution?
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Using two loops to go though the whole matrix and counting the negative numbers
 # Runtime ->
 # Memory -> 
