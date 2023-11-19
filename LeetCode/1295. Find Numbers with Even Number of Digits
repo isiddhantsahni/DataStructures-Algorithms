@@ -32,12 +32,6 @@ Constraints:
 
 #########################################################################################
 # First submission: Checking even digit numbers and returning count.
-# Runtime -> 59
-ms
-Beats
-41.19%
+# Runtime -> 59 ms Beats 41.19%
 
-# Memory -> 16.25
-MB
-Beats
-63.05%
+# Memory -> 16.25 MB Beats 63.05%
