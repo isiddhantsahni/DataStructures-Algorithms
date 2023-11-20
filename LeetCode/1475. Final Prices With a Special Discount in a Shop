@@ -51,5 +51,6 @@ class Solution:
         return prices
 
 # Second submission: Using Stack.
-# Runtime ->
-# Memory -> 
+# Runtime -> 54 ms Beats 64.33%
+# Memory -> 16.43 MB Beats 17.83%
+
