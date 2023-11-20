@@ -36,6 +36,6 @@ Constraints:
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Using two loops and checking for condition, if true subtract and break from the inner loop.
 # Runtime -> 
 # Memory -> 
