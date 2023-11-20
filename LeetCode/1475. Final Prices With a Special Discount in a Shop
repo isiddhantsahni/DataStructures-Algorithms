@@ -37,13 +37,7 @@ Constraints:
 
 #########################################################################################
 # First submission: Using two loops and checking for condition, if true subtract and break from the inner loop.
-# Runtime -> 56
-ms
-Beats
-52.50%
+# Runtime -> 56 ms Beats 52.50%
 
-# Memory -> 16.52
-MB
-Beats
-17.83%
+# Memory -> 16.52 MB Beats 17.83%
 
