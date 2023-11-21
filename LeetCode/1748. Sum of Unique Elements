@@ -34,3 +34,17 @@ Constraints:
 # First submission: Using dictionary
 # Runtime -> 37 ms Beats 82.85%
 # Memory -> 16.23 MB Beats 34.48%
+
+class Solution:
+    def sumOfUnique(self, nums: List[int]) -> int:
+        count=0
+        temp = {}
+        for i in nums:
+            if i in temp:
+                temp[i]+=1
+            else:
+                temp[i]=1
+        for key,val in temp.items():
+            if val == 1:
+                count+=key
+        return count
