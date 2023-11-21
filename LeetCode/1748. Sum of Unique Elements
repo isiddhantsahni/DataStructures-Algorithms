@@ -50,5 +50,9 @@ class Solution:
         return count
 
 # Second submission: Using count function of list
-# Runtime -> 
+# Runtime -> 48
+ms
+Beats
+15.07%
+
 # Memory ->
