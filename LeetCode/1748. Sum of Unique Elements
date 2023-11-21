@@ -48,3 +48,7 @@ class Solution:
             if val == 1:
                 count+=key
         return count
+
+# Second submission: Using dictionary
+# Runtime -> 37 ms Beats 82.85%
+# Memory -> 16.23 MB Beats 34.48%
