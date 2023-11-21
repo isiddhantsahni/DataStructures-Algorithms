@@ -50,15 +50,8 @@ class Solution:
         return count
 
 # Second submission: Using count function of list
-# Runtime -> 48
-ms
-Beats
-15.07%
-
-# Memory -> 16.16
-MB
-Beats
-67.51%
+# Runtime -> 48 ms Beats 15.07%
+# Memory -> 16.16 MB Beats 67.51%
 
 class Solution:
     def sumOfUnique(self, nums: List[int]) -> int:
