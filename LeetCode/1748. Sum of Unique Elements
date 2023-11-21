@@ -49,6 +49,6 @@ class Solution:
                 count+=key
         return count
 
-# Second submission: 
+# Second submission: Using count function of list
 # Runtime -> 
 # Memory ->
