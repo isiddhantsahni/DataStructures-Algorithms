@@ -41,11 +41,5 @@ Constraints:
 
 #########################################################################################
 # First submission: Using sort and math.gcf
-# Runtime -> 64
-ms
-Beats
-31.25%
-# Memory -> 16.49
-MB
-Beats
-29.93%
+# Runtime -> 64 ms Beats 31.25%
+# Memory -> 16.49 MB Beats 29.93%
