@@ -50,11 +50,23 @@ class Solution:
         return math.gcd(nums[0],nums[-1])
         
 # Second submission: Not using inbuilt functions
-# Runtime -> 60
-ms
-Beats
-56.59%
-# Memory -> 16.43
-MB
-Beats
-29.93%
+# Runtime -> 60 ms Beats 56.59%
+# Memory -> 16.43 MB Beats 29.93%
+
+class Solution:
+    def findGCD(self, nums: List[int]) -> int:
+        min = max = nums[0]
+        for i in nums:
+            if i < min:
+                min = i
+            if i > max:
+                max = i
+        
+        # GCD of min and max
+        # Euclidean Algorithm
+        while max and min:
+            if max > min:
+                max %= min
+            else:
+                min %= max
+        return max if max > min else min
