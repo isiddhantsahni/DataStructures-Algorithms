@@ -45,6 +45,6 @@ class Solution:
         else:
             return nums[1]
 
-# Second submission: 
+# Second submission: Not using in-built functions
 # Runtime -> 
 # Memory -> 
