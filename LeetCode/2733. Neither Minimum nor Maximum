@@ -54,5 +54,5 @@ class Solution:
         return -1 if len(nums) <= 2 else sorted(nums)[-2]
 
 # Third submission: Another way
-# Runtime -> 355 ms Beats 18.51%
-# Memory -> 16.31 MB Beats 12.81%
+# Runtime -> 340 ms Beats 56.77%
+# Memory -> 16.30 MB Beats 48.94%
