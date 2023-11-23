@@ -56,3 +56,11 @@ class Solution:
 # Third submission: Another way
 # Runtime -> 340 ms Beats 56.77%
 # Memory -> 16.30 MB Beats 48.94%
+
+class Solution:
+    def findNonMinOrMax(self, nums: List[int]) -> int:
+        minVal, maxVal = min(nums), max(nums)
+        for n in nums:
+            if n != minVal and n != maxVal:
+                return n
+        return -1
