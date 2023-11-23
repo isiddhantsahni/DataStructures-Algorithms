@@ -45,6 +45,10 @@ class Solution:
         else:
             return nums[1]
 
-# Second submission: Not using in-built functions
-# Runtime -> 
-# Memory -> 
+# Second submission: Another way
+# Runtime -> 355 ms Beats 18.51%
+# Memory -> 16.31 MB Beats 12.81%
+
+class Solution:
+    def findNonMinOrMax(self, nums: List[int]) -> int:
+        return -1 if len(nums) <= 2 else sorted(nums)[-2]
