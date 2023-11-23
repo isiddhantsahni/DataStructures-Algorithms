@@ -33,5 +33,11 @@ All values in nums are distinct
 
 #########################################################################################
 # First submission: Using inbuilt functions set, list and sort.
-# Runtime -> 
-# Memory -> 
+# Runtime -> 354
+ms
+Beats
+19.91%
+# Memory -> 16.34
+MB
+Beats
+12.81%
