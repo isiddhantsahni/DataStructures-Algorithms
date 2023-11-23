@@ -35,3 +35,12 @@ All values in nums are distinct
 # First submission: Using inbuilt functions set, list and sort.
 # Runtime -> 354 ms Beats 19.91%
 # Memory -> 16.34 MB Beats 12.81%
+
+class Solution:
+    def findNonMinOrMax(self, nums: List[int]) -> int:
+        nums=list(set(nums))
+        nums.sort()
+        if len(nums)<=2:
+            return -1
+        else:
+            return nums[1]
