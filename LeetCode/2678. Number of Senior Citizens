@@ -34,5 +34,5 @@ The phone numbers and seat numbers of the passengers are distinct.
 
 #########################################################################################
 # First submission: Using string slicing
-# Runtime -> 
-# Memory -> 
+# Runtime -> 42 ms Beats 95.85%
+# Memory -> 16.39 MB Beats 14.76%
