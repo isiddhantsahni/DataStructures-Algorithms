@@ -33,6 +33,6 @@ The phone numbers and seat numbers of the passengers are distinct.
 """
 
 #########################################################################################
-# First submission: Using string splice
+# First submission: Using string slicing
 # Runtime -> 
 # Memory -> 
