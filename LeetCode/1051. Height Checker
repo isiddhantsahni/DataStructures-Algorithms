@@ -57,3 +57,7 @@ class Solution:
             if temp_list[i] != heights[i]:
                 count+=1
         return count 
+
+# Second submission: Using sorted instead of sort
+# Runtime -> 
+# Memory -> 
