@@ -43,5 +43,8 @@ Constraints:
 
 #########################################################################################
 # First submission: Using another temp list to compare
-# Runtime -> 
+# Runtime -> 41
+ms
+Beats
+71.40%
 # Memory ->
