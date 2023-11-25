@@ -59,5 +59,11 @@ class Solution:
         return count 
 
 # Second submission: Using sorted instead of sort
-# Runtime -> 
-# Memory -> 
+# Runtime -> 45
+ms
+Beats
+45.92%
+# Memory -> 16.20
+MB
+Beats
+70.60%
