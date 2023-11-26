@@ -37,5 +37,11 @@ Constraints:
 
 #########################################################################################
 # First submission: Using if stmt to check and append indices to list.
-# Runtime ->
-# Memory -> 
+# Runtime -> 47
+ms
+Beats
+87.91%
+# Memory -> 16.36
+MB
+Beats
+13.18%
