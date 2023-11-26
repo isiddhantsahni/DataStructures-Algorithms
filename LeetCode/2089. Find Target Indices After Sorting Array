@@ -37,14 +37,8 @@ Constraints:
 
 #########################################################################################
 # First submission: Using if stmt to check and append indices to list.
-# Runtime -> 47
-ms
-Beats
-87.91%
-# Memory -> 16.36
-MB
-Beats
-13.18%
+# Runtime -> 47 ms Beats 87.91%
+# Memory -> 16.36 MB Beats 13.18%
 
 class Solution:
     def targetIndices(self, nums: List[int], target: int) -> List[int]:
