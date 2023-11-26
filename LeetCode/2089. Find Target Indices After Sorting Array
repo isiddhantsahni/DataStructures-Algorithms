@@ -50,14 +50,8 @@ class Solution:
         return res
 
 # Second submission: Another method
-# Runtime -> 46
-ms
-Beats
-90.84%
-# Memory -> 16.34
-MB
-Beats
-13.18%
+# Runtime -> 46 ms Beats 90.84%
+# Memory -> 16.34 MB Beats 13.18%
 
 class Solution:
     def targetIndices(self, nums: List[int], target: int) -> List[int]:
