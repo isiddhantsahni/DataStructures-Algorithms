@@ -50,5 +50,11 @@ class Solution:
         return res
 
 # Second submission: Another method
-# Runtime -> 
-# Memory -> 
+# Runtime -> 46
+ms
+Beats
+90.84%
+# Memory -> 16.34
+MB
+Beats
+13.18%
