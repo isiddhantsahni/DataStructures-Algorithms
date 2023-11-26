@@ -48,3 +48,7 @@ class Solution:
             if nums[i]==target:
                 res.append(i)
         return res
+
+# Second submission: Another method
+# Runtime -> 
+# Memory -> 
