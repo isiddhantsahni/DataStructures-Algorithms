@@ -44,3 +44,16 @@ Beats
 MB
 Beats
 7.24%
+
+class Solution:
+    def rowAndMaximumOnes(self, mat: List[List[int]]) -> List[int]:
+        diction = {}
+        for i in range(len(mat)):
+            count_ = 0
+            for j in range(len(mat[i])):
+                if mat[i][j] == 1:
+                    count_+=1
+            diction[i] = count_
+        print(diction)
+        sorted_dict = sorted(diction.items(), key=lambda x:x[1],reverse=True)
+        return sorted_dict[0]
