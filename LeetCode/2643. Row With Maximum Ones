@@ -36,14 +36,8 @@ mat[i][j] is either 0 or 1.
 
 #########################################################################################
 # First submission: Using a counter to count number of 1s and then appending the result to a dictionary with index as key. At last sorting the dictionary and returning the result.
-# Runtime -> 863
-ms
-Beats
-11.62%
-# Memory -> 17.18
-MB
-Beats
-7.24%
+# Runtime -> 863 ms Beats 11.62%
+# Memory -> 17.18 MB Beats 7.24%
 
 class Solution:
     def rowAndMaximumOnes(self, mat: List[List[int]]) -> List[int]:
