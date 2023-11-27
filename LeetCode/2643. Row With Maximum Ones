@@ -56,3 +56,14 @@ class Solution:
 # Runtime -> 821 ms Beats 80.22%
 # Memory -> 16.98 MB Beats 7.24%
 
+class Solution:
+    def rowAndMaximumOnes(self, mat: List[List[int]]) -> List[int]:
+        maxValue = 0
+        index = 0
+        for m in range(len(mat)):
+            sumN = 0
+            sumN = sum(mat[m])
+            if sumN > maxValue:
+                index =  m
+            maxValue=max(maxValue,sumN)
+        return [index,maxValue]
