@@ -53,12 +53,6 @@ class Solution:
         return sorted_dict[0]
 
 # Second submission: Usign another method.
-# Runtime -> 821
-ms
-Beats
-80.22%
-# Memory -> 16.98
-MB
-Beats
-7.24%
+# Runtime -> 821 ms Beats 80.22%
+# Memory -> 16.98 MB Beats 7.24%
 
