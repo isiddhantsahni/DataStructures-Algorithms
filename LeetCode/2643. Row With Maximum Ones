@@ -35,6 +35,6 @@ mat[i][j] is either 0 or 1.
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Using a counter to count number of 1s and then appending the result to a dictionary with index as key. At last sorting the dictionary and returning the result.
 # Runtime -> 
 # Memory ->
