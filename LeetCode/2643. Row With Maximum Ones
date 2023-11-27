@@ -35,6 +35,6 @@ mat[i][j] is either 0 or 1.
 """
 
 #########################################################################################
-# First submission: Subtracting values of left and right sum of element. Taking the absolute value of difference, appending to an array.
-# Runtime -> 211 ms Beats 31.39%
-# Memory -> 16.64 MB Beats 45.13%
+# First submission: 
+# Runtime -> 
+# Memory ->
