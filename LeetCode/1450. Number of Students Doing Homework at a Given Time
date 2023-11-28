@@ -44,3 +44,7 @@ class Solution:
             if queryTime <= endTime[i]:
                 count+=1
         return count
+
+# Second submission: 
+# Runtime ->
+# Memory -> 
