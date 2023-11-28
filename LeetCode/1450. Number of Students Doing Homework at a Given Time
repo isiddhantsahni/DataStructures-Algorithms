@@ -33,3 +33,6 @@ startTime.length == endTime.length
 """
 
 #########################################################################################
+# First submission: Using three loops and checking the conditions
+# Runtime -> 1346 ms Beats 5.06%
+# Memory -> 16.31 MB Beats 24.29%
