@@ -33,6 +33,6 @@ startTime.length == endTime.length
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Checking the condition in one loop.
 # Runtime ->
 # Memory -> 
