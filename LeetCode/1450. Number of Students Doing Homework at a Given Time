@@ -45,9 +45,9 @@ class Solution:
                 count+=1
         return count
 
-# Second submission: 
-# Runtime ->
-# Memory -> 
+# Second submission: Changed the condition.
+# Runtime -> 45 ms Beats 49.41%
+# Memory -> 16.45 MB Beats 15.93%
 
 class Solution:
     def busyStudent(self, startTime: List[int], endTime: List[int], queryTime: int) -> int:
