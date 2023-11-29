@@ -50,7 +50,7 @@ Each valuei in items2 is unique.
 """
 
 #########################################################################################
-# First submission:
+# First submission: Using counter
 # Runtime -> 124 ms Beats 41.97%
 # Memory -> 17.33 MB Beats 12.89%
 
