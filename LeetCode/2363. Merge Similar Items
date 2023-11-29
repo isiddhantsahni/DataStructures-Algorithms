@@ -51,15 +51,8 @@ Each valuei in items2 is unique.
 
 #########################################################################################
 # First submission:
-# Runtime -> 124
-ms
-Beats
-41.97%
-# Memory -> 17.33
-MB
-Beats
-12.89%
-
+# Runtime -> 124 ms Beats 41.97%
+# Memory -> 17.33 MB Beats 12.89%
 
 class Solution:
     def mergeSimilarItems(self, items1: List[List[int]], items2: List[List[int]]) -> List[List[int]]:
