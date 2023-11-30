@@ -56,3 +56,7 @@ class Solution:
                 output.append(unique[i]) # if count is odd, after pairing one element will remain. Append that to output list 
             pair += (count)//2 # get no of pairs
         return [pair,len(output)] # output = [2]
+
+# Second submission: 
+# Runtime -> 
+# Memory -> 
