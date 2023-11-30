@@ -42,8 +42,8 @@ Constraints:
 
 #########################################################################################
 # First submission: Using set to find uniqure numbers and count the leftovers.
-# Runtime ->
-# Memory -> 
+# Runtime -> 45 ms Beats 33.38%
+# Memory -> 16.24 MB Beats 43.43%
 
 class Solution:
     def numberOfPairs(self, nums: List[int]) -> List[int]: 
