@@ -58,8 +58,8 @@ class Solution:
         return [pair,len(output)] # output = [2]
 
 # Second submission: Another method, using dictionary
-# Runtime -> 
-# Memory -> 
+# Runtime -> 46 ms Beats 27.71%
+# Memory -> 16.34 MB Beats 12.24%
 
 class Solution:
     def numberOfPairs(self, nums: List[int]) -> List[int]:
