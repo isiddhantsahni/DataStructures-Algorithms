@@ -41,6 +41,18 @@ Constraints:
 """
 
 #########################################################################################
-# First submission:
+# First submission: Using set to find uniqure numbers and count the leftovers.
 # Runtime ->
 # Memory -> 
+
+class Solution:
+    def numberOfPairs(self, nums: List[int]) -> List[int]: 
+        output = []  # nums = [1,3,2,1,3,2,2]
+        pair = 0
+        unique = list(set(nums)) # [1,3,2] get unique elements from nums
+        for i in range(len(unique)):
+            count = nums.count(unique[i])  # count no of element in nums
+            if count % 2 !=0:
+                output.append(unique[i]) # if count is odd, after pairing one element will remain. Append that to output list 
+            pair += (count)//2 # get no of pairs
+        return [pair,len(output)] # output = [2]
