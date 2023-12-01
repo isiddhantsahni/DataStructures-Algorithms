@@ -64,15 +64,8 @@ For operations "C" and "D", there will always be at least one previous score on 
 
 #########################################################################################
 # First submission: Storing numbers in list and checking if any operations come '+', 'C', 'D', then performing the operation.
-# Runtime -> 46
-ms
-Beats
-72.90%
-of users with Python3
-# Memory -> 16.42
-MB
-Beats
-50.79%
+# Runtime -> 46 ms Beats 72.90% 
+# Memory -> 16.42 MB Beats 50.79%
 
 class Solution:
     def calPoints(self, operations: List[str]) -> int:
