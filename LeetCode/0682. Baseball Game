@@ -5,3 +5,6 @@
 """
 
 #########################################################################################
+# First submission: Using another temp list to compare
+# Runtime -> 41 ms Beats 71.40%
+# Memory -> 16.48 MB Beats 8.02%
