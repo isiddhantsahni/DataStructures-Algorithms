@@ -53,5 +53,12 @@ strs[i] consists of lowercase English letters.
 
 #########################################################################################
 # First submission: Brute Force, column wise loop
-# Runtime -> 
-# Memory -> 
+# Runtime -> 184
+ms
+Beats
+12.72%
+
+# Memory -> 17.10
+MB
+Beats
+46.78%
