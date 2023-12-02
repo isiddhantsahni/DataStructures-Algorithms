@@ -52,3 +52,6 @@ strs[i] consists of lowercase English letters.
 """
 
 #########################################################################################
+# First submission: Using inbuilt functions set, list and sort.
+# Runtime -> 354 ms Beats 19.91%
+# Memory -> 
