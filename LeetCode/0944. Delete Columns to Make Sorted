@@ -53,15 +53,8 @@ strs[i] consists of lowercase English letters.
 
 #########################################################################################
 # First submission: Brute Force, column wise loop
-# Runtime -> 184
-ms
-Beats
-12.72%
-
-# Memory -> 17.10
-MB
-Beats
-46.78%
+# Runtime -> 184 ms Beats 12.72%
+# Memory -> 17.10 MB Beats 46.78%
 
 class Solution:
     def minDeletionSize(self, strs: List[str]) -> int:
@@ -74,4 +67,3 @@ class Solution:
                         break
         # print(count)
         return count
-        
