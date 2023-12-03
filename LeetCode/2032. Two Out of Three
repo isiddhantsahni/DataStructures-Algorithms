@@ -56,3 +56,7 @@ class Solution:
                     temp.append(nums3[k])
 
         return temp
+
+# Second submission: One-liner
+# Runtime ->
+# Memory ->
