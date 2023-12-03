@@ -58,17 +58,9 @@ class Solution:
         return temp
 
 # Second submission: One-liner
-# Runtime -> 82
-ms
-Beats
-16.60%
-
-# Memory -> 16.34
-MB
-Beats
-29.20%
+# Runtime -> 82 ms Beats 16.60%
+# Memory -> 16.34 MB Beats 29.20%
 
 class Solution:
     def twoOutOfThree(self, nums1: List[int], nums2: List[int], nums3: List[int]) -> List[int]:
         return set(nums1) & set(nums2) | set(nums2) & set(nums3) | set(nums1) & set(nums3)
-
