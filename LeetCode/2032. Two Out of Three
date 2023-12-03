@@ -58,5 +58,12 @@ class Solution:
         return temp
 
 # Second submission: One-liner
-# Runtime ->
-# Memory ->
+# Runtime -> 82
+ms
+Beats
+16.60%
+
+# Memory -> 16.34
+MB
+Beats
+29.20%
