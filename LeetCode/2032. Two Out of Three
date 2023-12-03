@@ -37,3 +37,22 @@ Constraints:
 # Runtime -> 75 ms Beats 48.23%
 # Memory -> 16.46 MB Beats 5.13%
 
+class Solution:
+    def twoOutOfThree(self, nums1: List[int], nums2: List[int], nums3: List[int]) -> List[int]:
+        temp = []
+        for i in range(len(nums1)):
+            if nums1[i] in nums2 or nums1[i] in nums3:
+                if nums1[i] not in temp:
+                    temp.append(nums1[i])
+       
+        for j in range(len(nums2)):
+            if nums2[j] in nums1 or nums2[j] in nums3:
+                if nums2[j] not in temp:
+                    temp.append(nums2[j])
+        
+        for k in range(len(nums3)):
+            if nums3[k] in nums2 or nums3[k] in nums1:
+                if nums3[k] not in temp:
+                    temp.append(nums3[k])
+
+        return temp
