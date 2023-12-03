@@ -34,12 +34,6 @@ Constraints:
 
 #########################################################################################
 # First submission: Using 3 loops
-# Runtime -> 75
-ms
-Beats
-48.23%
-# Memory -> 16.46
-MB
-Beats
-5.13%
+# Runtime -> 75 ms Beats 48.23%
+# Memory -> 16.46 MB Beats 5.13%
 
