@@ -28,5 +28,9 @@ Constraints:
 
 #########################################################################################
 # First submission: Checking if value of counts exists in temp list, if it does return false, else after loop return true.
-# Runtime ->
+# Runtime -> 39
+ms
+Beats
+85.36%
+
 # Memory ->
