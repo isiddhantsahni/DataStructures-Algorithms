@@ -27,3 +27,6 @@ Constraints:
 """
 
 #########################################################################################
+# First submission: Using string slicing
+# Runtime -> 42 ms Beats 95.85%
+# Memory ->
