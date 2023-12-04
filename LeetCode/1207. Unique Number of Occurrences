@@ -27,6 +27,6 @@ Constraints:
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Checking if value of counts exists in temp list, if it does return false, else after loop return true.
 # Runtime ->
 # Memory ->
