@@ -53,5 +53,8 @@ class Solution:
         return count
 
 # Second submission: Used the left and right values.
-# Runtime ->
+# Runtime -> 65
+ms
+Beats
+97.20%
 # Memory ->
