@@ -51,3 +51,7 @@ class Solution:
             if words[-1] in chars and words[0] in chars:
                 count+=1
         return count
+
+# Second submission: 
+# Runtime ->
+# Memory ->
