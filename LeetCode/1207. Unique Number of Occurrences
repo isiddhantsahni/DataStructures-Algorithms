@@ -42,6 +42,6 @@ class Solution:
                 return False
         return True
    
-# Second submission: 
+# Second submission: One-liner
 # Runtime -> 
 # Memory -> 
