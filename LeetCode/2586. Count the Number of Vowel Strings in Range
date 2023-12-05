@@ -52,6 +52,6 @@ class Solution:
                 count+=1
         return count
 
-# Second submission: 
+# Second submission: Used the left and right values.
 # Runtime ->
 # Memory ->
