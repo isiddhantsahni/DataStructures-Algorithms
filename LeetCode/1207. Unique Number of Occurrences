@@ -28,15 +28,8 @@ Constraints:
 
 #########################################################################################
 # First submission: Checking if value of counts exists in temp list, if it does return false, else after loop return true.
-# Runtime -> 39
-ms
-Beats
-85.36%
-
-# Memory -> 16.59
-MB
-Beats
-5.48%
+# Runtime -> 39 ms Beats 85.36%
+# Memory -> 16.59 MB Beats 5.48%
 
 class Solution:
     def uniqueOccurrences(self, arr: List[int]) -> bool:
