@@ -61,3 +61,12 @@ Beats
 MB
 Beats
 12.46%
+
+class Solution:
+    def vowelStrings(self, words: List[str], left: int, right: int) -> int:
+        count=0
+        chars = ['a','e','i','o','u']
+        for i in range(left,right+1):
+            if words[i][-1] in chars and words[i][0] in chars:
+                count+=1
+        return count
