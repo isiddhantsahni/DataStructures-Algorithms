@@ -53,14 +53,8 @@ class Solution:
         return count
 
 # Second submission: Used the left and right values.
-# Runtime -> 65
-ms
-Beats
-97.20%
-# Memory -> 16.68
-MB
-Beats
-12.46%
+# Runtime -> 65 ms Beats 97.20%
+# Memory -> 16.68 MB Beats 12.46%
 
 class Solution:
     def vowelStrings(self, words: List[str], left: int, right: int) -> int:
