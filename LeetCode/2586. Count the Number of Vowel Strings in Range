@@ -39,6 +39,6 @@ words[i] consists of only lowercase English letters.
 """
 
 #########################################################################################
-# First submission:
+# First submission: Checking if first and last character in vowel list and returning count.
 # Runtime ->
 # Memory ->
