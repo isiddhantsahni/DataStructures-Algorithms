@@ -37,3 +37,16 @@ Beats
 MB
 Beats
 5.48%
+
+class Solution:
+    def uniqueOccurrences(self, arr: List[int]) -> bool:
+        uniq = list(set(arr))
+        temp = []
+        for i in range(0,len(uniq)):
+            if arr.count(uniq[i]) not in temp:
+                temp.append(arr.count(uniq[i]))
+            else:
+                return False
+        return True
+
+        
