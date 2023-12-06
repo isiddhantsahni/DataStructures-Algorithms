@@ -36,15 +36,8 @@ Constraints:
 
 #########################################################################################
 # First submission: Sorting to get large number of units first and removing them first to get max number to fit inside the truck.
-# Runtime -> 867
-ms
-Beats
-13.82%
-
-# Memory -> 16.68
-MB
-Beats
-82.21%
+# Runtime -> 867 ms Beats 13.82%
+# Memory -> 16.68 MB Beats 82.21%
 
 class Solution:
     def maximumUnits(self, boxTypes: List[List[int]], truckSize: int) -> int:
