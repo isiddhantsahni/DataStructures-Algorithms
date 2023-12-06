@@ -50,3 +50,6 @@ class Solution:
                 truckSize -= 1
         return ans
         
+# Second submission: 
+# Runtime -> 
+# Memory -> 
