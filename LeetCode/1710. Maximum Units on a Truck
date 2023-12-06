@@ -51,5 +51,11 @@ class Solution:
         return ans
         
 # Second submission: Another way
-# Runtime -> 
-# Memory -> 
+# Runtime -> 143
+ms
+Beats
+87.98%
+# Memory -> 16.90
+MB
+Beats
+23.66%
