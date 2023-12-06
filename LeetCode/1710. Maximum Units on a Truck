@@ -35,6 +35,6 @@ Constraints:
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Sorting to get large number of units first and removing them first to get max number to fit inside the truck.
 # Runtime -> 
 # Memory ->
