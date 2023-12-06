@@ -36,5 +36,13 @@ Constraints:
 
 #########################################################################################
 # First submission: Sorting to get large number of units first and removing them first to get max number to fit inside the truck.
-# Runtime -> 
-# Memory ->
+# Runtime -> 867
+ms
+Beats
+13.82%
+
+# Memory -> 16.68
+MB
+Beats
+82.21%
+
