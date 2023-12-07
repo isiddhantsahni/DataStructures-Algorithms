@@ -58,14 +58,8 @@ matrix[i][j] is either 0 or 1.
 """
 #########################################################################################
 # First submission: Sorting
-# Runtime -> 106
-ms
-Beats
-54.30%
-# Memory -> 16.68
-MB
-Beats
-55.30%
+# Runtime -> 106 ms Beats 54.30%
+# Memory -> 16.68 MB Beats 55.30%
 
 class Solution:
     def kWeakestRows(self, mat: List[List[int]], k: int) -> List[int]:
