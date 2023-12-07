@@ -67,3 +67,17 @@ MB
 Beats
 55.30%
 
+class Solution:
+    def kWeakestRows(self, mat: List[List[int]], k: int) -> List[int]:
+        dict1 = {}
+        for i in range(len(mat)):
+            count = 0
+            for j in range(len(mat[i])):
+                if mat[i][j] == 1:
+                    count+=1
+            dict1[i] = count
+        dict2 = {k: v for k, v in sorted(dict1.items(), key=lambda item: item[1])}
+        list1 = []
+        for key,val in dict2.items():
+            list1.append(key)
+        return list1[:k]
