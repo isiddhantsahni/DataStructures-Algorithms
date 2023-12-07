@@ -58,5 +58,12 @@ matrix[i][j] is either 0 or 1.
 """
 #########################################################################################
 # First submission: Sorting
-# Runtime -> 
-# Memory -> 
+# Runtime -> 106
+ms
+Beats
+54.30%
+# Memory -> 16.68
+MB
+Beats
+55.30%
+
