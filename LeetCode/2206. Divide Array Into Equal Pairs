@@ -39,5 +39,11 @@ nums.length == 2 * n
 # Memory ->
 
 # Second submission: Another way
-# Runtime ->
-# Memory ->
+# Runtime -> 91
+ms
+Beats
+47.23%
+# Memory -> 16.39
+MB
+Beats
+77.95%
