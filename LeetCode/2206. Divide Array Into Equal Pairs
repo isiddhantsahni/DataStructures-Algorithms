@@ -42,3 +42,10 @@ nums.length == 2 * n
 # Runtime -> 91 ms Beats 47.23%
 # Memory -> 16.39 MB Beats 77.95%
 
+class Solution:
+    def divideArray(self, nums: List[int]) -> bool:
+        seen = set()
+        for n in nums:
+            seen ^= {n}
+        return not seen
+        
