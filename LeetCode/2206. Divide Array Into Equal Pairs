@@ -37,3 +37,7 @@ nums.length == 2 * n
 # First submission: Created dictionary of numbers with count and checking if each element is even in number. Wrong answer
 # Runtime ->
 # Memory ->
+
+# Second submission: Another way
+# Runtime ->
+# Memory ->
