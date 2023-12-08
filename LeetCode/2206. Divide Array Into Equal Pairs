@@ -50,14 +50,8 @@ class Solution:
         return not seen
         
 # Third submission: Another way
-# Runtime -> 76
-ms
-Beats
-97.71%
-# Memory -> 16.48
-MB
-Beats
-48.31%
+# Runtime -> 76 ms Beats 97.71%
+# Memory -> 16.48 MB Beats 48.31%
 
 class Solution:
     def divideArray(self, nums: List[int]) -> bool:
