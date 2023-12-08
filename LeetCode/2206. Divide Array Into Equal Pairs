@@ -34,6 +34,6 @@ nums.length == 2 * n
 """
 
 #########################################################################################
-# First submission: Checking if first and last character in vowel list and returning count. Wrong answer
+# First submission: Created dictionary of numbers with count and checking if each element is even in number. Wrong answer
 # Runtime ->
 # Memory ->
