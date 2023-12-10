@@ -44,3 +44,12 @@ Both arrays are in strictly ascending order by id.
 # First submission: Summing all values
 # Runtime -> 
 # Memory -> 
+
+class Solution:
+    def mergeArrays(self, nums1: List[List[int]], nums2: List[List[int]]) -> List[List[int]]:
+        all_values = [0] * 1001
+        for a,b in nums1:
+            all_values[a] += b
+        for a,b in nums2:
+            all_values[a] += b
+        return [[a,b] for a,b in enumerate(all_values) if b != 0]
