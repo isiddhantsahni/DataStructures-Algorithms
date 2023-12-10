@@ -42,14 +42,8 @@ Both arrays are in strictly ascending order by id.
 
 #########################################################################################
 # First submission: Summing all values
-# Runtime -> 65
-ms
-Beats
-68.03%
-# Memory -> 16.37
-MB
-Beats
-88.91%
+# Runtime -> 65 ms Beats 68.03%
+# Memory -> 16.37 MB Beats 88.91%
 
 class Solution:
     def mergeArrays(self, nums1: List[List[int]], nums2: List[List[int]]) -> List[List[int]]:
