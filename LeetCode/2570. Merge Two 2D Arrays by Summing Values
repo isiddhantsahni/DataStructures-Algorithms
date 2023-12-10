@@ -41,6 +41,6 @@ Both arrays are in strictly ascending order by id.
 """
 
 #########################################################################################
-# First submission:
+# First submission: Summing all values
 # Runtime -> 
 # Memory -> 
