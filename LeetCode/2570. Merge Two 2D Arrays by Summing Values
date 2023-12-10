@@ -46,8 +46,10 @@ Both arrays are in strictly ascending order by id.
 ms
 Beats
 68.03%
-
-# Memory -> 
+# Memory -> 16.37
+MB
+Beats
+88.91%
 
 class Solution:
     def mergeArrays(self, nums1: List[List[int]], nums2: List[List[int]]) -> List[List[int]]:
