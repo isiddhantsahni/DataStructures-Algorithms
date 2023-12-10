@@ -54,7 +54,7 @@ class Solution:
             all_values[a] += b
         return [[a,b] for a,b in enumerate(all_values) if b != 0]
 
-# Second submission: Summing all values
+# Second submission: Using dictionary
 # Runtime -> 65 ms Beats 68.03%
 # Memory ->
 class Solution:
