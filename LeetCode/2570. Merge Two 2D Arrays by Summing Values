@@ -42,7 +42,11 @@ Both arrays are in strictly ascending order by id.
 
 #########################################################################################
 # First submission: Summing all values
-# Runtime -> 
+# Runtime -> 65
+ms
+Beats
+68.03%
+
 # Memory -> 
 
 class Solution:
