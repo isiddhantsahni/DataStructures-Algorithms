@@ -35,6 +35,6 @@ words[i] and s consist of lowercase English letters only.
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Using startwith function
 # Runtime ->
 # Memory ->
