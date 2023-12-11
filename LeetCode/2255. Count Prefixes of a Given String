@@ -35,6 +35,6 @@ words[i] and s consist of lowercase English letters only.
 """
 
 #########################################################################################
-# First submission: Checking if first and last character in vowel list and returning count. Wrong answer
+# First submission: 
 # Runtime ->
 # Memory ->
