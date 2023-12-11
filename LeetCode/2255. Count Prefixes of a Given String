@@ -36,8 +36,14 @@ words[i] and s consist of lowercase English letters only.
 
 #########################################################################################
 # First submission: Using startwith function
-# Runtime ->
-# Memory ->
+# Runtime -> 63
+ms
+Beats
+62.58%
+# Memory -> 16.68
+MB
+Beats
+9.42%
 
 class Solution:
     def countPrefixes(self, words: List[str], s: str) -> int:
