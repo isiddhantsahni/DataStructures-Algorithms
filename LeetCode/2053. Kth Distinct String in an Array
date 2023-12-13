@@ -40,6 +40,6 @@ arr[i] consists of lowercase English letters.
 """
 
 #########################################################################################
-# First submission: Created dictionary of numbers with count and checking if each element is even in number. Wrong answer
+# First submission: 
 # Runtime ->
 # Memory ->
