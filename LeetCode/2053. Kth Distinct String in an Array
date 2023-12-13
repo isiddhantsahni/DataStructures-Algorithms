@@ -43,3 +43,14 @@ arr[i] consists of lowercase English letters.
 # First submission: Finding unique elements and return the kth element
 # Runtime ->
 # Memory ->
+
+class Solution:
+    def kthDistinct(self, arr: List[str], k: int) -> str:
+        l = []
+        x = Counter(arr)
+        for i, j in x.items():
+            if j==1:
+                l.append(i)
+        if len(l)<k:
+            return ""
+        return l[k-1]
