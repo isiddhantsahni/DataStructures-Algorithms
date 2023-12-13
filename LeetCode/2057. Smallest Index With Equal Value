@@ -40,7 +40,7 @@ Constraints:
 """
 
 #########################################################################################
-# First submission:
+# First submission: Checking condition and returning if found, else return -1
 # Runtime ->
 # Memory -> 
 
