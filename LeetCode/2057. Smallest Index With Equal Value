@@ -53,8 +53,14 @@ class Solution:
         return -1
 
 # Second submission: Another method
-# Runtime -> 
-# Memory -> 
+# Runtime -> 84
+ms
+Beats
+49.73%
+# Memory -> 16.37
+MB
+Beats
+14.82%
 
 class Solution:
     def smallestEqual(self, nums: List[int]) -> int:
