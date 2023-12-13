@@ -51,3 +51,7 @@ class Solution:
                 return i
                 break
         return -1
+
+# Second submission: 
+# Runtime -> 
+# Memory -> 
