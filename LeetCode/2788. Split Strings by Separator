@@ -50,8 +50,14 @@ separator is a character from the string ".,|$#@" (excluding the quotes)
 
 #########################################################################################
 # First submission: Using split
-# Runtime -> 
-# Memory ->
+# Runtime -> 103
+ms
+Beats
+58.57%
+# Memory -> 16.42
+MB
+Beats
+37.05%
 
 class Solution:
     def splitWordsBySeparator(self, words: List[str], separator: str) -> List[str]:
