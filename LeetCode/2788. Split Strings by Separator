@@ -49,6 +49,6 @@ separator is a character from the string ".,|$#@" (excluding the quotes)
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Using split
 # Runtime -> 
 # Memory ->
