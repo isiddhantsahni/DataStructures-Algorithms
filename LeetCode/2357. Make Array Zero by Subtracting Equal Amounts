@@ -34,3 +34,20 @@ Constraints:
 # First submission: 
 # Runtime -> 
 # Memory -> 
+
+class Solution:
+    def minimumOperations(self, nums: List[int]) -> int:
+        c=0
+        i=0
+        nums.sort()
+        while i<len(nums) and nums[i]==0:
+            i+=1
+        while nums[-1]!=0:
+            value=nums[i]
+            for x in range(i,len(nums)):
+                nums[x]=nums[x]-value
+                if(nums[x]==0):
+                    i+=1
+            print(nums)
+            c+=1
+        return c
