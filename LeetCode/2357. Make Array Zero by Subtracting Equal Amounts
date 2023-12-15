@@ -33,7 +33,7 @@ Constraints:
 #########################################################################################
 # First submission: Using while loop
 # Runtime -> 52 ms Beats 14.34%
-# Memory -> 
+# Memory -> 16.39 MB Beats 15.43%
 
 class Solution:
     def minimumOperations(self, nums: List[int]) -> int:
