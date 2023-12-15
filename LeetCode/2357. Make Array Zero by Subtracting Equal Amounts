@@ -32,7 +32,7 @@ Constraints:
 
 #########################################################################################
 # First submission: Using while loop
-# Runtime -> 
+# Runtime -> 52 ms Beats 14.34%
 # Memory -> 
 
 class Solution:
