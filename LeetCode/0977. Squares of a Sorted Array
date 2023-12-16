@@ -39,5 +39,8 @@ class Solution:
         return squares
 
 # Second submission: One-liner
-# Runtime -> 
-# Memory ->
+# Runtime -> 198 ms Beats 49.59% 
+# Memory -> 18.66
+MB
+Beats
+38.66% 
