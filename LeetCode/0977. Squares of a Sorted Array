@@ -38,6 +38,6 @@ class Solution:
         squares.sort()
         return squares
 
-# Second submission: 
+# Second submission: One-liner
 # Runtime -> 
 # Memory ->
