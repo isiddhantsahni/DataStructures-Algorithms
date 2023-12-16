@@ -29,5 +29,11 @@ Follow up: Squaring each element and sorting the new array is very trivial, coul
 
 #########################################################################################
 # First submission: Using trivial approach, squares and then sort.
-# Runtime ->
-# Memory -> 
+# Runtime -> 200
+ms
+Beats
+45.90% 
+# Memory -> 18.56
+MB
+Beats
+62.51%
