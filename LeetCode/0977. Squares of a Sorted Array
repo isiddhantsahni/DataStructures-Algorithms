@@ -37,3 +37,7 @@ class Solution:
         squares = [x**2 for x in nums]
         squares.sort()
         return squares
+
+# Second submission: 
+# Runtime -> 
+# Memory ->
