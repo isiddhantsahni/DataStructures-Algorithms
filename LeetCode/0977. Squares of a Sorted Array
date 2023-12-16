@@ -40,10 +40,7 @@ class Solution:
 
 # Second submission: One-liner
 # Runtime -> 198 ms Beats 49.59% 
-# Memory -> 18.66
-MB
-Beats
-38.66% 
+# Memory -> 18.66 MB Beats 38.66% 
 
 class Solution:
     def sortedSquares(self, nums: List[int]) -> List[int]:
