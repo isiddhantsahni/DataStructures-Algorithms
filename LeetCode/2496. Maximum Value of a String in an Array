@@ -37,14 +37,8 @@ strs[i] consists of only lowercase English letters and digits.
 
 #########################################################################################
 # First submission: Using ord
-# Runtime -> 44
-ms
-Beats
-29.50%
-# Memory -> 16.32
-MB
-Beats
-19.02%
+# Runtime -> 44 ms Beats 29.50%
+# Memory -> 16.32 MB Beats 19.02%
 
 class Solution:
     def maximumValue(self, strs: List[str]) -> int:
