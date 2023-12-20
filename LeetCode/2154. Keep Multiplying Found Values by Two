@@ -37,15 +37,8 @@ Constraints:
 
 #########################################################################################
 # First submission: Using while loop
-# Runtime -> 66
-ms
-Beats
-56.45%
-
-# Memory -> 17.39
-MB
-Beats
-12.07%
+# Runtime -> 66 ms Beats 56.45% 
+# Memory -> 17.39 MB Beats 12.07%
 
 class Solution:
     def findFinalValue(self, nums: List[int], original: int) -> int:
