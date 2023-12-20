@@ -37,5 +37,13 @@ Constraints:
 
 #########################################################################################
 # First submission: Using while loop
-# Runtime -> 
-# Memory -> 
+# Runtime -> 66
+ms
+Beats
+56.45%
+
+# Memory -> 17.39
+MB
+Beats
+12.07%
+
