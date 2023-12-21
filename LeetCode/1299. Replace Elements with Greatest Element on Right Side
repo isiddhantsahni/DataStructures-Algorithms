@@ -46,3 +46,6 @@ class Solution:
         # print(arr)
         return arr
         
+# Second submission: Using max function. Correct but time limit exceeded for one testcase.
+# Runtime -> 
+# Memory ->
