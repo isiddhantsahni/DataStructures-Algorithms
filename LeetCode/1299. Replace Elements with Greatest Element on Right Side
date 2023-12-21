@@ -47,14 +47,8 @@ class Solution:
         return arr
         
 # Second submission: Using while loop
-# Runtime -> 485
-ms
-Beats
-100.00%
-# Memory -> 18.82
-MB
-Beats
-8.11%
+# Runtime -> 485 ms Beats 100.00%
+# Memory -> 18.82 MB Beats 8.11%
 
 class Solution:
     def replaceElements(self, arr: List[int]) -> List[int]:
