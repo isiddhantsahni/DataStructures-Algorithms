@@ -32,6 +32,17 @@ Constraints:
 """
 
 #########################################################################################
-# First submission: Using max function
+# First submission: Using max function. Correct but time limit exceeded for one testcase.
 # Runtime -> 
 # Memory ->
+
+class Solution:
+    def replaceElements(self, arr: List[int]) -> List[int]:
+        for i in range(0,len(arr)):
+            if i == len(arr)-1:
+                arr[-1] = -1
+                break
+            arr[i]=max(arr[i+1:])
+        # print(arr)
+        return arr
+        
