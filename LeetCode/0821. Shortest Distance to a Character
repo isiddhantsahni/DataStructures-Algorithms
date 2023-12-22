@@ -31,5 +31,11 @@ It is guaranteed that c occurs at least once in s.
 
 #########################################################################################
 # First submission: using array that stores occurences of the character.
-# Runtime -> 
-# Memory ->
+# Runtime -> 41
+ms
+Beats
+87.51%
+# Memory -> 17.46
+MB
+Beats
+6.63%
