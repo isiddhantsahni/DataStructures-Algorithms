@@ -30,6 +30,6 @@ It is guaranteed that c occurs at least once in s.
 """
 
 #########################################################################################
-# First submission: Using while loop
-# Runtime -> 52 ms Beats 14.34%
+# First submission:
+# Runtime -> 
 # Memory ->
