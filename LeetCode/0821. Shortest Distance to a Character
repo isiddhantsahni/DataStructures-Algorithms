@@ -30,6 +30,6 @@ It is guaranteed that c occurs at least once in s.
 """
 
 #########################################################################################
-# First submission:
+# First submission: using array that stores occurences of the character.
 # Runtime -> 
 # Memory ->
