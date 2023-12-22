@@ -31,14 +31,8 @@ It is guaranteed that c occurs at least once in s.
 
 #########################################################################################
 # First submission: using array that stores occurences of the character.
-# Runtime -> 41
-ms
-Beats
-87.51%
-# Memory -> 17.46
-MB
-Beats
-6.63%
+# Runtime -> 41 ms Beats 87.51%
+# Memory -> 17.46 MB Beats 6.63%
 
 class Solution:
     def shortestToChar(self, s: str, c: str) -> list[int]:
