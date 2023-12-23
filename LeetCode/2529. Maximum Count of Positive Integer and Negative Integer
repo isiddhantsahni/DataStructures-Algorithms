@@ -54,6 +54,6 @@ class Solution:
         else:
             return neg
 
-# Second submission: As the array is sorted, checking the lowest value and counting.
+# Second submission: Using Binary Search
 # Runtime -> 
 # Memory ->
