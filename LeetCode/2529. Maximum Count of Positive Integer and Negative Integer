@@ -37,5 +37,11 @@ Follow up: Can you solve the problem in O(log(n)) time complexity?
 
 #########################################################################################
 # First submission: Loop to check each value and adding to counter. At the end returning the max of pos or neg.
-# Runtime -> 
-# Memory ->
+# Runtime -> 107
+ms
+Beats
+96.63%
+# Memory -> 17.67
+MB
+Beats
+10.17%
