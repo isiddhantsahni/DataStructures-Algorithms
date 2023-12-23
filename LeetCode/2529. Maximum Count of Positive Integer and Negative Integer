@@ -53,3 +53,7 @@ class Solution:
             return pos
         else:
             return neg
+
+# Second submission: As the array is sorted, checking the lowest value and counting.
+# Runtime -> 
+# Memory ->
