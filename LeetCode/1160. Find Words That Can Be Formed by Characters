@@ -47,5 +47,11 @@ class Solution:
         return count
   
 # Second submission: Correct answer.
-# Runtime -> 
-# Memory ->
+# Runtime -> 145
+ms
+Beats
+62.12%
+# Memory -> 17.88
+MB
+Beats
+6.44%
