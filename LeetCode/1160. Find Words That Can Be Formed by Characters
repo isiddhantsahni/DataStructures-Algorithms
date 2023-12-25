@@ -47,14 +47,8 @@ class Solution:
         return count
   
 # Second submission: Correct answer.
-# Runtime -> 145
-ms
-Beats
-62.12%
-# Memory -> 17.88
-MB
-Beats
-6.44%
+# Runtime -> 145 ms Beats 62.12%
+# Memory -> 17.88 MB Beats 6.44%
 
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
