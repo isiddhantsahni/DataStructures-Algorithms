@@ -34,7 +34,7 @@ All elements in the matrix are distinct.
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Traversing and finding max and min values, checking if both of the list contain the element and returning the final list.
 # Runtime ->
 # Memory ->
 
