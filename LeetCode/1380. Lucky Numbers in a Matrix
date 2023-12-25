@@ -51,7 +51,11 @@ class Solution:
                 result.append(max_num)
             
         return result
-            
+
+# Second submission: Traversing and finding max and min values, checking if both of the list contain the element and returning the final list.
+# Runtime -> 121 ms Beats 66.74%
+# Memory ->
+
 class Solution:
     def luckyNumbers (self, matrix: List[List[int]]) -> List[int]:
         minrow = {min(r) for r in matrix}
