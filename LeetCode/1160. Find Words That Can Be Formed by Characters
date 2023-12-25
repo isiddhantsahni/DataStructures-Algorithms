@@ -45,5 +45,7 @@ class Solution:
             if c==0:
                 count+=len(word)
         return count
-
-        
+  
+# Second submission: Correct answer.
+# Runtime -> 
+# Memory ->
