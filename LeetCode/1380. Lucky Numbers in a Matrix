@@ -35,8 +35,15 @@ All elements in the matrix are distinct.
 
 #########################################################################################
 # First submission: Traversing and finding max and min values, checking if both of the list contain the element and returning the final list.
-# Runtime ->
-# Memory ->
+# Runtime -> 121
+ms
+Beats
+66.74%
+
+# Memory -> 17.67
+MB
+Beats
+5.69%
 
 class Solution:
     def luckyNumbers (self, matrix: List[List[int]]) -> List[int]:
