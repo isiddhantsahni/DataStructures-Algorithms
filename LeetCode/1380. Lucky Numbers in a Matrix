@@ -52,9 +52,9 @@ class Solution:
             
         return result
 
-# Second submission: Traversing and finding max and min values, checking if both of the list contain the element and returning the final list.
-# Runtime -> 121 ms Beats 66.74%
-# Memory ->
+# Second submission: Compact solution
+# Runtime -> 108 ms Beats 97.75%
+# Memory -> 17.74 MB Beats 5.69%
 
 class Solution:
     def luckyNumbers (self, matrix: List[List[int]]) -> List[int]:
