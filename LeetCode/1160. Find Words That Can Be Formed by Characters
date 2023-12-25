@@ -29,6 +29,21 @@ words[i] and chars consist of lowercase English letters.
 """
 
 #########################################################################################
-# First submission: Using two loops
+# First submission: Using two loops. Wrong answer.
 # Runtime -> 
 # Memory ->
+
+class Solution:
+    def countCharacters(self, words: List[str], chars: str) -> int:
+        count=0
+        for word in words:
+            c=0
+            for char in word:
+                if char not in chars:
+                    c=1
+                    break
+            if c==0:
+                count+=len(word)
+        return count
+
+        
