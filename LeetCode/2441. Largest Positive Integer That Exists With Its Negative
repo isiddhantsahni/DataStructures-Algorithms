@@ -34,8 +34,8 @@ nums[i] != 0
 
 #########################################################################################
 # First submission: Using sort
-# Runtime -> 
-# Memory -> 
+# Runtime -> 124 ms Beats 51.04%
+# Memory -> 17.36 MB Beats 8.61%
 
 class Solution:
     def findMaxK(self, nums: List[int]) -> int:
@@ -44,5 +44,3 @@ class Solution:
             if -nums[i] in nums:
                 return nums[i]
         return -1
-
-        
