@@ -30,5 +30,12 @@ Constraints:
 
 #########################################################################################
 # First submission: Using sort and checking if the first 2 elements are bigger than money.
-# Runtime ->
-# Memory ->
+# Runtime -> 119
+ms
+Beats
+5.38%
+# Memory -> 17.54
+MB
+Beats
+22.45%
+
