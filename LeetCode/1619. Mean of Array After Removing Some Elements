@@ -31,5 +31,8 @@ arr.length is a multiple of 20.
 
 #########################################################################################
 # First submission: Using sort
-# Runtime -> 
+# Runtime -> 124
+ms
+Beats
+5.06%
 # Memory ->
