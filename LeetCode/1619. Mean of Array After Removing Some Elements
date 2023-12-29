@@ -30,6 +30,6 @@ arr.length is a multiple of 20.
 """
 
 #########################################################################################
-# First submission: Sorting to get large number of units first and removing them first to get max number to fit inside the truck.
-# Runtime -> 867 ms Beats 13.82%
+# First submission: 
+# Runtime -> 
 # Memory ->
