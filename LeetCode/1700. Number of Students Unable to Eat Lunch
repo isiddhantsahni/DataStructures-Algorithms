@@ -44,15 +44,8 @@ students[i] is 0 or 1.
 
 #########################################################################################
 # First submission: Using while loop and pop function.
-# Runtime -> 67
-ms
-Beats
-5.69%
-
-# Memory -> 17.42
-MB
-Beats
-7.83%
+# Runtime -> 67 ms Beats 5.69%
+# Memory -> 17.42 MB Beats 7.83%
 
 class Solution:
     def countStudents(self, students: List[int], sandwiches: List[int]) -> int:
