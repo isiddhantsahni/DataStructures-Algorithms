@@ -44,5 +44,12 @@ students[i] is 0 or 1.
 
 #########################################################################################
 # First submission: Using while loop and pop function.
-# Runtime ->
-# Memory -> 
+# Runtime -> 67
+ms
+Beats
+5.69%
+
+# Memory -> 17.42
+MB
+Beats
+7.83%
