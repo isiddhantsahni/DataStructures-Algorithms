@@ -32,3 +32,7 @@ n == matrix[i].length
 # First submission: Creating a new array which is the transpose of the previous one.
 # Runtime ->
 # Memory ->
+
+class Solution:
+    def transpose(self, matrix: List[List[int]]) -> List[List[int]]:
+        return zip(*matrix)
