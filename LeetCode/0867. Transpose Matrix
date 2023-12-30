@@ -44,8 +44,8 @@ class Solution:
         return t
 
 # Second submission: One-liner
-# Runtime -> 152 ms Beats 5.20%
-# Memory ->
+# Runtime -> 109 ms Beats 5.20%
+# Memory -> 18.12 MB Beats 5.86%
 
 class Solution:
     def transpose(self, matrix: List[List[int]]) -> List[List[int]]:
