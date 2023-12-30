@@ -29,6 +29,6 @@ n == matrix[i].length
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Creating a new array which is the transpose of the previous one.
 # Runtime ->
 # Memory ->
