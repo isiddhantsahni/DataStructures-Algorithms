@@ -30,8 +30,14 @@ n == matrix[i].length
 
 #########################################################################################
 # First submission: Creating a new array which is the transpose of the previous one.
-# Runtime ->
-# Memory ->
+# Runtime -> 152
+ms
+Beats
+5.20%
+# Memory -> 18.08
+MB
+Beats
+6.87%
 
 class Solution:
     def transpose(self, matrix: List[List[int]]) -> List[List[int]]:
