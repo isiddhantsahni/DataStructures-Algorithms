@@ -29,3 +29,6 @@ n == matrix[i].length
 """
 
 #########################################################################################
+# First submission: if nums1[i] == nums2[j], take another loop from nums2[j+1] to end; if next greater element is present append it,else append -1
+# Runtime -> 428 ms Beats 5%
+# Memory ->
