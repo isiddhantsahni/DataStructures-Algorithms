@@ -43,6 +43,10 @@ class Solution:
                 t[j][i]=matrix[i][j]
         return t
 
+# Second submission: Creating a new array which is the transpose of the previous one.
+# Runtime -> 152 ms Beats 5.20%
+# Memory ->
+
 class Solution:
     def transpose(self, matrix: List[List[int]]) -> List[List[int]]:
         return zip(*matrix)
