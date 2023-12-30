@@ -43,7 +43,7 @@ class Solution:
                 t[j][i]=matrix[i][j]
         return t
 
-# Second submission: Creating a new array which is the transpose of the previous one.
+# Second submission: One-liner
 # Runtime -> 152 ms Beats 5.20%
 # Memory ->
 
