@@ -41,5 +41,12 @@ Note: This question is the same as 724: https://leetcode.com/problems/find-pivot
 
 #########################################################################################
 # First submission: Using if statement to check sum
-# Runtime -> 
-# Memory ->
+# Runtime -> 109
+ms
+Beats
+5.13%
+# Memory -> 17.11
+MB
+Beats
+13.23%
+
