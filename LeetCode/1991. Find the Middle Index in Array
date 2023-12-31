@@ -40,6 +40,6 @@ Note: This question is the same as 724: https://leetcode.com/problems/find-pivot
 """
 
 #########################################################################################
-# First submission:
+# First submission: Using if statement to check sum
 # Runtime -> 
 # Memory ->
