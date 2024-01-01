@@ -41,15 +41,8 @@ What if the matrix is so large that you can only load up a partial row into the 
 
 #########################################################################################
 # First submission: As mentioned in the hint, checking to see if the current element is equal to the top-left element.
-# Runtime -> 161
-ms
-Beats
-5.00%
-
-# Memory -> 17.38
-MB
-Beats
-12.78%
+# Runtime -> 161 ms Beats 5.00% 
+# Memory -> 17.38 MB Beats 12.78%
 
 class Solution:
     def isToeplitzMatrix(self, matrix: List[List[int]]) -> bool:
