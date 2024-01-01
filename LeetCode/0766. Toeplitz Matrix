@@ -40,6 +40,6 @@ What if the matrix is so large that you can only load up a partial row into the 
 """
 
 #########################################################################################
-# First submission: Using split
-# Runtime -> 103 ms Beats 58.57%
+# First submission: 
+# Runtime -> 
 # Memory -> 
