@@ -21,5 +21,7 @@ Constraints:
 1 <= words[i].length <= 100
 words[i] consists of lowercase English letters.
 """
-
 #########################################################################################
+# First submission: Using another temp list to compare
+# Runtime -> 41 ms Beats 71.40%
+# Memory ->
