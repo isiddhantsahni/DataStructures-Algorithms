@@ -22,6 +22,6 @@ Constraints:
 words[i] consists of lowercase English letters.
 """
 #########################################################################################
-# First submission: Using another temp list to compare
-# Runtime -> 41 ms Beats 71.40%
+# First submission: 
+# Runtime -> 
 # Memory ->
