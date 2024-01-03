@@ -25,6 +25,6 @@ All the characters of jewels are unique.
 """
 
 #########################################################################################
-# First submission:
+# First submission: Using two loops to check each character in the other string and counting the number of same chars.
 # Runtime -> 
 # Memory -> 
