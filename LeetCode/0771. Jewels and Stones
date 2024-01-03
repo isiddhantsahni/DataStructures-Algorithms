@@ -26,14 +26,8 @@ All the characters of jewels are unique.
 
 #########################################################################################
 # First submission: Using two loops to check each character in the other string and counting the number of same chars.
-# Runtime -> 30
-ms
-Beats
-95.19%
-# Memory -> 17.47
-MB
-Beats
-6.98%
+# Runtime -> 30 ms Beats 95.19%
+# Memory -> 17.47 MB Beats 6.98%
 
 class Solution:
     def numJewelsInStones(self, jewels: str, stones: str) -> int:
