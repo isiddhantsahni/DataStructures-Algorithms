@@ -36,15 +36,8 @@ words[i] consists only of lowercase English letters.
 
 #########################################################################################
 # First submission: Looping and checking what word contains the character.
-# Runtime -> 63
-ms
-Beats
-74.11%
-# Memory -> 17.42
-MB
-Beats
-9.56%
-
+# Runtime -> 63 ms Beats 74.11%
+# Memory -> 17.42 MB Beats 9.56% 
 
 class Solution:
     def findWordsContaining(self, words: List[str], x: str) -> List[int]:
