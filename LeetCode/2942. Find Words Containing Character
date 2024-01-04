@@ -35,6 +35,6 @@ words[i] consists only of lowercase English letters.
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Looping and checking what word contains the character.
 # Runtime ->
 # Memory ->
