@@ -35,3 +35,6 @@ words[i] consists only of lowercase English letters.
 """
 
 #########################################################################################
+# First submission: Using a counter to count number of 1s and then appending the result to a dictionary with index as key. At last sorting the dictionary and returning the result.
+# Runtime -> 863 ms Beats 11.62%
+# Memory ->
