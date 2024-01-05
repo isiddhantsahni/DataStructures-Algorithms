@@ -36,3 +36,7 @@ command consists of "G", "()", and/or "(al)" in some order.
 # First submission: Using replace method
 # Runtime -> 
 # Memory -> 
+
+class Solution:
+    def interpret(self, command: str) -> str:
+        return command.replace('()','o').replace('(al)','al')
