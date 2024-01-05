@@ -33,3 +33,6 @@ command consists of "G", "()", and/or "(al)" in some order.
 """
 
 #########################################################################################
+# First submission: Brute force approach
+# Runtime -> 70 ms Beats 48.98%
+# Memory -> 
