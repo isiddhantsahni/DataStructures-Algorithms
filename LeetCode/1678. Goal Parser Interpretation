@@ -34,15 +34,8 @@ command consists of "G", "()", and/or "(al)" in some order.
 
 #########################################################################################
 # First submission: Using replace method
-# Runtime -> 33
-ms
-Beats
-86.19%
-# Memory -> 17.19
-MB
-Beats
-20.82%
-
+# Runtime -> 33 ms Beats 86.19%
+# Memory -> 17.19 MB Beats 20.82%
 
 class Solution:
     def interpret(self, command: str) -> str:
