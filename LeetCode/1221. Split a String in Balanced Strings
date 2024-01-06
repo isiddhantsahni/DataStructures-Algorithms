@@ -37,3 +37,6 @@ s is a balanced string.
 """
 
 #########################################################################################
+# First submission: Using trivial approach, squares and then sort.
+# Runtime -> 200 ms Beats 45.90% 
+# Memory ->
