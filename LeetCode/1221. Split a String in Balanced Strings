@@ -38,8 +38,14 @@ s is a balanced string.
 
 #########################################################################################
 # First submission: Adding and Subtracting 1 from a variable and increasing another variable's value based on the previous var. 
-# Runtime ->
-# Memory ->
+# Runtime -> 39
+ms
+Beats
+54.43%
+# Memory -> 17.24
+MB
+Beats
+18.57%
 
 class Solution:
     def balancedStringSplit(self, s: str) -> int:
