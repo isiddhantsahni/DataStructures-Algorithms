@@ -40,3 +40,12 @@ s is a balanced string.
 # First submission: Adding and Subtracting 1 from a variable and increasing another variable's value based on the previous var. 
 # Runtime ->
 # Memory ->
+
+class Solution:
+    def balancedStringSplit(self, s: str) -> int:
+        m = c = 0
+        for char in s:
+            if char == 'L': c += 1
+            if char == 'R': c -= 1
+            if c == 0: m += 1
+        return m
