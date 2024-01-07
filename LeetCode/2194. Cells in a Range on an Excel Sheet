@@ -40,8 +40,14 @@ s consists of uppercase English letters, digits and ':'.
 
 #########################################################################################
 # First submission: Using ord
-# Runtime ->
-# Memory ->
+# Runtime -> 41
+ms
+Beats
+85.11%
+# Memory -> 17.44
+MB
+Beats
+12.33%
 
 class Solution:
         def cellsInRange(self, s: str) -> List[str]:
