@@ -39,3 +39,6 @@ s consists of uppercase English letters, digits and ':'.
 """
 
 #########################################################################################
+# First submission: Created dictionary of numbers with count and checking if each element is even in number. Wrong answer
+# Runtime ->
+# Memory ->
