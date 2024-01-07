@@ -39,6 +39,6 @@ s consists of uppercase English letters, digits and ':'.
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Using ord
 # Runtime ->
 # Memory ->
