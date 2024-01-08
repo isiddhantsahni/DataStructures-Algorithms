@@ -29,5 +29,11 @@ s consists of printable ASCII characters.
 
 #########################################################################################
 # First submission: Using .lower function.
-# Runtime -> 
-# Memory ->
+# Runtime -> 35
+ms
+Beats
+73.67%
+# Memory -> 17.41
+MB
+Beats
+7.80%
