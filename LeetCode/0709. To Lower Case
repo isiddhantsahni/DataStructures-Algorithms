@@ -39,3 +39,14 @@ class Solution:
 # Second submission: Adding 97-65 to a Upper case Chaaracter.
 # Runtime -> 35 ms Beats 73.67%
 # Memory -> 17.41 MB Beats 7.80%
+
+class Solution:
+    def toLowerCase(self, s: str) -> str:
+        answerString = ""
+        for i in s:
+            if 'A' <= i <= 'Z':
+                answerString = answerString + chr(ord(i)+32)
+            else:
+                 answerString = answerString + i
+
+        return answerString
