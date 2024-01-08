@@ -28,3 +28,6 @@ s consists of printable ASCII characters.
 """
 
 #########################################################################################
+# First submission: Storing numbers in list and checking if any operations come '+', 'C', 'D', then performing the operation.
+# Runtime -> 46 ms Beats 72.90% 
+# Memory ->
