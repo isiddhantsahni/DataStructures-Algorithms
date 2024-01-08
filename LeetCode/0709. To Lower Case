@@ -37,7 +37,7 @@ class Solution:
         return s.lower()
         
 # Second submission: Adding 97-65 to a Upper case Chaaracter.
-# Runtime -> 35 ms Beats 73.67%
+# Runtime -> 34 ms Beats 80.27%
 # Memory -> 17.31 MB Beats 7.80%
 
 class Solution:
