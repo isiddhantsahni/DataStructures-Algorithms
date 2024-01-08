@@ -28,6 +28,6 @@ s consists of printable ASCII characters.
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Using .lower function.
 # Runtime -> 
 # Memory ->
