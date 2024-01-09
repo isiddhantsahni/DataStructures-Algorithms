@@ -26,5 +26,11 @@ sentence consists of lowercase English letters.
 
 #########################################################################################
 # First submission: 
-# Runtime -> 
-# Memory ->
+# Runtime -> 31
+ms
+Beats
+92.56%
+# Memory -> 17.45
+MB
+Beats
+14.48%
