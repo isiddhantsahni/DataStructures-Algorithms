@@ -25,7 +25,7 @@ sentence consists of lowercase English letters.
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Using dictionary we set all characters found and finally check if the len is equal to 26
 # Runtime -> 31
 ms
 Beats
