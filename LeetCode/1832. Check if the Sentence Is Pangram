@@ -25,3 +25,6 @@ sentence consists of lowercase English letters.
 """
 
 #########################################################################################
+# First submission: Spliting and merging after removing the words.
+# Runtime -> 29 ms Beats 97.94%
+# Memory ->
