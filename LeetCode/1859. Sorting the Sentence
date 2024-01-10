@@ -32,6 +32,6 @@ s contains no leading or trailing spaces.
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Taking the last index to get what position and then sorting.
 # Runtime -> 
 # Memory -> 
