@@ -33,14 +33,8 @@ s contains no leading or trailing spaces.
 
 #########################################################################################
 # First submission: Taking the last index to get what position and then sorting.
-# Runtime -> 46
-ms
-Beats
-20.23%
-# Memory -> 17.31
-MB
-Beats
-11.76%
+# Runtime -> 46 ms Beats 20.23%
+# Memory -> 17.31 MB Beats 11.76%
 
 class Solution:
     def sortSentence(self, s: str) -> str:
