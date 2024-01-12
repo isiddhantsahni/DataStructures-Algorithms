@@ -26,3 +26,7 @@ The given address is a valid IPv4 address.
 # First submission: Using the .replace method
 # Runtime -> 
 # Memory ->
+
+class Solution:
+    def defangIPaddr(self, address: str) -> str:
+        return address.replace(".","[.]")
