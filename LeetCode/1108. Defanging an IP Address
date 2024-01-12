@@ -24,14 +24,8 @@ The given address is a valid IPv4 address.
 
 #########################################################################################
 # First submission: Using the .replace method
-# Runtime -> 43
-ms
-Beats
-23.27%
-# Memory -> 17.11
-MB
-Beats
-35.36%
+# Runtime -> 43 ms Beats 23.27%
+# Memory -> 17.11 MB Beats 35.36%
 
 class Solution:
     def defangIPaddr(self, address: str) -> str:
