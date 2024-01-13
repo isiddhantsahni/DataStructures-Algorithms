@@ -25,6 +25,6 @@ All the words in s are separated by a single space.
 """
 
 #########################################################################################
-# First submission:
+# First submission: Using split and join methods.
 # Runtime -> 
 # Memory -> 
