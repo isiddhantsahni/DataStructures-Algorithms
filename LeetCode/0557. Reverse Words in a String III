@@ -28,3 +28,10 @@ All the words in s are separated by a single space.
 # First submission: Using split and join methods.
 # Runtime -> 
 # Memory -> 
+
+class Solution:
+    def reverseWords(self, s: str) -> str:
+        array = s.split(" ")
+        for i in range(0,len(array)):
+            array[i]=array[i][::-1]
+        return (" ").join(array)
