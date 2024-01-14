@@ -49,3 +49,13 @@ s[0] != 'i'
 # First submission: Traversing and checking for 'i', if found reversing temperory string var, else append character to string var.
 # Runtime -> 
 # Memory -> 
+
+class Solution:
+    def finalString(self, s: str) -> str:
+        str1 = ""
+        for char in s:
+            if char == "i":
+                str1=str1[::-1]
+            else:
+                str1=str1+char
+        return str1
