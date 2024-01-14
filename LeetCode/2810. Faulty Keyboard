@@ -47,14 +47,8 @@ s[0] != 'i'
 
 #########################################################################################
 # First submission: Traversing and checking for 'i', if found reversing temperory string var, else append character to string var.
-# Runtime -> 53
-ms
-Beats
-38.86%
-# Memory -> 17.25
-MB
-Beats
-25.82%
+# Runtime -> 53 ms Beats 38.86%
+# Memory -> 17.25 MB Beats 25.82%
 
 class Solution:
     def finalString(self, s: str) -> str:
