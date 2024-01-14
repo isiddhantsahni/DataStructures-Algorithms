@@ -46,6 +46,6 @@ s[0] != 'i'
 """
 
 #########################################################################################
-# First submission: Going through the list and counting if hour greater than target
-# Runtime -> 48 ms Beats 52.98%
+# First submission:
+# Runtime -> 
 # Memory -> 
