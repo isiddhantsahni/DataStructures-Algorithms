@@ -43,8 +43,8 @@ s is a valid parentheses string.
 """
 
 #########################################################################################
-# First submission: Using set
-# Runtime -> 48 ms Beats 85.18%
+# First submission: 
+# Runtime -> 
 # Memory -> 
 
 class Solution:
