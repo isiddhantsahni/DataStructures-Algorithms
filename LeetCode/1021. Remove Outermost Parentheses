@@ -44,14 +44,8 @@ s is a valid parentheses string.
 
 #########################################################################################
 # First submission: Using if else block
-# Runtime -> 38
-ms
-Beats
-82.52%
-# Memory -> 17.36
-MB
-Beats
-35.21%
+# Runtime -> 38 ms Beats 82.52%
+# Memory -> 17.36 MB Beats 35.21%
 
 class Solution:
     def removeOuterParentheses(self, S: str) -> str:
