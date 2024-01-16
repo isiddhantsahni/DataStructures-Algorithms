@@ -40,3 +40,12 @@ s contains an even number of vertical bars '|'.
 # First submission: Splitting on | and counting the even index substring "*".
 # Runtime ->
 # Memory -> 
+
+class Solution:
+    def countAsterisks(self, s: str) -> int:
+        count=0
+        arr = s.split("|")
+        for i in range(len(arr)):
+            if i%2==0:
+                count+=arr[i].count("*")
+        return count
