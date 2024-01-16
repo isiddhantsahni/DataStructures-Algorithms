@@ -37,6 +37,6 @@ s contains an even number of vertical bars '|'.
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Splitting on | and counting the even index substring "*".
 # Runtime ->
 # Memory -> 
