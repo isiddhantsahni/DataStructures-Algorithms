@@ -38,8 +38,14 @@ s contains an even number of vertical bars '|'.
 
 #########################################################################################
 # First submission: Splitting on | and counting the even index substring "*".
-# Runtime ->
-# Memory -> 
+# Runtime -> 39
+ms
+Beats
+59.52%
+# Memory -> 17.19
+MB
+Beats
+41.41%
 
 class Solution:
     def countAsterisks(self, s: str) -> int:
