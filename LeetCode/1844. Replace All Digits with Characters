@@ -39,6 +39,6 @@ shift(s[i-1], s[i]) <= 'z' for all odd indices i.
 """
 
 #########################################################################################
-# First submission:
+# First submission: Using chr and ord functions.
 # Runtime -> 
 # Memory ->
