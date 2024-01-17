@@ -40,14 +40,8 @@ shift(s[i-1], s[i]) <= 'z' for all odd indices i.
 
 #########################################################################################
 # First submission: Using chr and ord functions.
-# Runtime -> 30
-ms
-Beats
-94.21%
-# Memory -> 17.27
-MB
-Beats
-27.42%
+# Runtime -> 30 ms Beats 94.21%
+# Memory -> 17.27 MB Beats 27.42%
 
 class Solution:
     def replaceDigits(self, s: str) -> str:
