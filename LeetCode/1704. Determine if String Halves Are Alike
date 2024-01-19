@@ -30,3 +30,6 @@ s consists of uppercase and lowercase letters.
 """
 
 #########################################################################################
+# First submission: Using while loop and pop function.
+# Runtime -> 67 ms Beats 5.69%
+# Memory ->
