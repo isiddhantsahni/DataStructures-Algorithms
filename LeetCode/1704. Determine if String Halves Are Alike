@@ -31,8 +31,14 @@ s consists of uppercase and lowercase letters.
 
 #########################################################################################
 # First submission: Using helper inner function
-# Runtime -> 
-# Memory ->
+# Runtime -> 34
+ms
+Beats
+84.08%
+# Memory -> 16.47
+MB
+Beats
+99.01%
 
 class Solution:
     def halvesAreAlike(self, s: str) -> bool:
