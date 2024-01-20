@@ -38,3 +38,6 @@ All strings consist of lowercase and uppercase English letters and the space cha
 """
 
 #########################################################################################
+# First submission: Checked the sum greater than or equal to the max value in candies array. If true, just adding True on the result array.
+# Runtime -> 44ms Beats 81.50%
+# Memory -> 
