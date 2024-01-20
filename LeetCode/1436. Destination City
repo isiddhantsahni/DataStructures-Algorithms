@@ -39,14 +39,8 @@ All strings consist of lowercase and uppercase English letters and the space cha
 
 #########################################################################################
 # First submission: Using set to form two city sets (start and destination cities).
-# Runtime -> 55
-ms
-Beats
-90.08%
-# Memory -> 16.95
-MB
-Beats
-7.04%
+# Runtime -> 55 ms Beats 90.08%
+# Memory -> 16.95 MB Beats 7.04%
 
 class Solution:
     def destCity(self, paths: List[List[str]]) -> str:
