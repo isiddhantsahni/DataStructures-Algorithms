@@ -41,3 +41,9 @@ All strings consist of lowercase and uppercase English letters and the space cha
 # First submission: Using set to form two city sets (start and destination cities).
 # Runtime ->
 # Memory -> 
+
+class Solution:
+    def destCity(self, paths: List[List[str]]) -> str:
+        start_cities, end_cities = map(set, zip(*paths))
+        destination = (end_cities - start_cities).pop()
+        return destination
