@@ -38,6 +38,6 @@ All strings consist of lowercase and uppercase English letters and the space cha
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Using set to form two city sets (start and destination cities).
 # Runtime ->
 # Memory -> 
