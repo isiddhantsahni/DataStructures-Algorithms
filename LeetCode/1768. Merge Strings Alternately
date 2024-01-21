@@ -41,14 +41,8 @@ word1 and word2 consist of lowercase English letters.
 
 #########################################################################################
 # First submission: Looping for minimum length and then adding the rest at the end of result string.
-# Runtime -> 33
-ms
-Beats
-84.05%
-# Memory -> 16.60
-MB
-Beats
-57.03%
+# Runtime -> 33 ms Beats 84.05%
+# Memory -> 16.60 MB Beats 57.03%
 
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
