@@ -40,6 +40,6 @@ word1 and word2 consist of lowercase English letters.
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Looping for minimum length and then adding the rest at the end of result string.
 # Runtime ->
 # Memory -> 
