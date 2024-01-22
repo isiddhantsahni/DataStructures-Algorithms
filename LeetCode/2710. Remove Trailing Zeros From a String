@@ -39,4 +39,6 @@ class Solution:
 # Second submission: One-liner using strip function.
 # Runtime -> 
 # Memory -> 
-        
+
+    def removeTrailingZeros(self, num: str) -> str:
+        return num.rstrip('0')
