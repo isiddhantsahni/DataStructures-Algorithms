@@ -36,3 +36,7 @@ class Solution:
                 # print(num[i])
                 return num[0:i+1]
         
+# Second submission: One-liner using strip function.
+# Runtime -> 
+# Memory -> 
+        
