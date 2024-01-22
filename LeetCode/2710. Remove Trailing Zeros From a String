@@ -25,6 +25,14 @@ num doesn't have any leading zeros.
 """
 
 #########################################################################################
-# First submission: Traversing from last to first character, if 0 found return string from 0 to i+1
+# First submission: Traversing from last to first character, if 0 found return string from 0 to i+1. 743/756 test cases passed.
 # Runtime -> 
 # Memory -> 
+
+class Solution:
+    def removeTrailingZeros(self, num: str) -> str:
+        for i in range(len(num)-1,0,-1):
+            if num[i] != '0':
+                # print(num[i])
+                return num[0:i+1]
+        
