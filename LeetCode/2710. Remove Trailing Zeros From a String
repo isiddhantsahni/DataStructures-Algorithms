@@ -37,8 +37,17 @@ class Solution:
                 return num[0:i+1]
         
 # Second submission: One-liner using strip function.
-# Runtime -> 
-# Memory -> 
+# Runtime -> 43
+ms
+Beats
+73.31%
+o
+# Memory -> 16.55
+MB
+Beats
+60.92%
 
+
+class Solution:
     def removeTrailingZeros(self, num: str) -> str:
         return num.rstrip('0')
