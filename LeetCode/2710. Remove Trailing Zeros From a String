@@ -43,3 +43,7 @@ class Solution:
 class Solution:
     def removeTrailingZeros(self, num: str) -> str:
         return num.rstrip('0')
+
+# Third submission: 
+# Runtime -> 
+# Memory -> 
