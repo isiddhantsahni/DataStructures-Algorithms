@@ -25,6 +25,6 @@ num doesn't have any leading zeros.
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Traversing from last to first character, if 0 found return string from 0 to i+1
 # Runtime -> 
 # Memory -> 
