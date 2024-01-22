@@ -45,14 +45,8 @@ class Solution:
         return num.rstrip('0')
 
 # Third submission: Making first submission correct.
-# Runtime -> 56
-ms
-Beats
-28.45%
-# Memory -> 16.63
-MB
-Beats
-58.33%
+# Runtime -> 56 ms Beats 28.45%
+# Memory -> 16.63 MB Beats 58.33%
 
 class Solution:
     def removeTrailingZeros(self, num: str) -> str:
