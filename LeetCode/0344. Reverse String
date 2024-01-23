@@ -27,3 +27,10 @@ s[i] is a printable ascii character.
 # First submission: Using .reverse function
 # Runtime -> 162 ms Beats 93.53%
 # Memory -> 20.83 MB Beats 68.66%
+
+class Solution:
+    def reverseString(self, s: List[str]) -> None:
+        """
+        Do not return anything, modify s in-place instead.
+        """
+        s.reverse()
