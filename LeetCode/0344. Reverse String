@@ -24,6 +24,6 @@ s[i] is a printable ascii character.
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Using .reverse function
 # Runtime -> 
 # Memory -> 
