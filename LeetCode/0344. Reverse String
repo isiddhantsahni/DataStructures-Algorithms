@@ -25,11 +25,5 @@ s[i] is a printable ascii character.
 
 #########################################################################################
 # First submission: Using .reverse function
-# Runtime -> 162
-ms
-Beats
-93.53%
-# Memory -> 20.83
-MB
-Beats
-68.66%
+# Runtime -> 162 ms Beats 93.53%
+# Memory -> 20.83 MB Beats 68.66%
