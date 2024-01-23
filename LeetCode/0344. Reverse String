@@ -34,3 +34,7 @@ class Solution:
         Do not return anything, modify s in-place instead.
         """
         s.reverse()
+
+# First submission: Using .reverse function
+# Runtime -> 162 ms Beats 93.53%
+# Memory -> 20.83 MB Beats 68.66%
