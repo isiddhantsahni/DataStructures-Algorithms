@@ -36,14 +36,8 @@ class Solution:
         s.reverse()
 
 # Second submission: Another Method
-# Runtime -> 161
-ms
-Beats
-94.82%
-# Memory -> 21.09
-MB
-Beats
-60.28%
+# Runtime -> 161 ms Beats 94.82%
+# Memory -> 21.09 MB Beats 60.28%
 
 class Solution:
     def reverseString(self, s: List[str]) -> None:
