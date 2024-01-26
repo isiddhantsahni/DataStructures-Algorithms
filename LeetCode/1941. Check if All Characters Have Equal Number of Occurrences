@@ -29,14 +29,8 @@ s consists of lowercase English letters.
 
 #########################################################################################
 # First submission: Using dictionary
-# Runtime -> 36
-ms
-Beats
-81.45%
-# Memory -> 16.60
-MB
-Beats
-58.23%
+# Runtime -> 36 ms Beats 81.45%
+# Memory -> 16.60 MB Beats 58.23%
 
 class Solution:
     def areOccurrencesEqual(self, s: str) -> bool:
