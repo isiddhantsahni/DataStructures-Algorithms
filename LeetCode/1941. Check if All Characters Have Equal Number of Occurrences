@@ -38,3 +38,18 @@ MB
 Beats
 58.23%
 
+class Solution:
+    def areOccurrencesEqual(self, s: str) -> bool:
+        dict1 = {}
+        for character in s:
+            if character in dict1:
+                dict1[character]+=1
+            else:
+                dict1[character]=1
+
+        old_val = next(iter(dict1.values()))
+        for key,val in dict1.items():
+            if old_val != val:
+                return False
+            old_val = val
+        return True
