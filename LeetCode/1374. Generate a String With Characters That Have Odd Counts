@@ -30,8 +30,14 @@ Constraints:
 
 #########################################################################################
 # First submission: Using a if else block.
-# Runtime -> 
-# Memory -> 
+# Runtime -> 41
+ms
+Beats
+24.06%
+# Memory -> 16.53
+MB
+Beats
+67.61%
 
 class Solution:
     def generateTheString(self, n: int) -> str:
