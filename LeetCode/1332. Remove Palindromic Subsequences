@@ -38,6 +38,6 @@ s[i] is either 'a' or 'b'.
 """
 
 #########################################################################################
-# First submission: Using max function. Correct but time limit exceeded for one testcase.
+# First submission: 
 # Runtime -> 
 # Memory ->
