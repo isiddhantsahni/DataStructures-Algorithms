@@ -42,3 +42,6 @@ s[i] is either 'a' or 'b'.
 # Runtime -> 34 ms Beats 69.75%
 # Memory -> 16.54 MB Beats 57.56%
 
+class Solution:
+    def removePalindromeSub(self, s):
+        return 2 - (s == s[::-1]) - (s == "")
