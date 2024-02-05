@@ -38,6 +38,6 @@ s[i] is either 'a' or 'b'.
 """
 
 #########################################################################################
-# First submission: 
+# First submission: You need to know the difference between subarray and subsequence. Subarray need to be consecutive。 Subsequence don't have to be consecutive.
 # Runtime -> 
 # Memory ->
