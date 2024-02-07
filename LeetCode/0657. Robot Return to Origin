@@ -39,8 +39,8 @@ class Solution:
         return moves.count('L') == moves.count('R') and moves.count('U') == moves.count('D')
 
 # Second submission: Another Way
-# Runtime -> 37 ms Beats 94.79%
-# Memory -> 16.65 MB Beats 67.87%
+# Runtime -> 51 ms Beats 65.72%
+# Memory -> 16.98 MB Beats 51.13%
 
 class Solution:
     def judgeCircle(self, moves):
