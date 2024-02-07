@@ -31,8 +31,14 @@ moves only contains the characters 'U', 'D', 'L' and 'R'.
 
 #########################################################################################
 # First submission: One liner
-# Runtime -> 
-# Memory ->
+# Runtime -> 37
+ms
+Beats
+94.79%
+# Memory -> 16.65
+MB
+Beats
+67.87%
 
 class Solution:
     def judgeCircle(self, moves: str) -> bool:
