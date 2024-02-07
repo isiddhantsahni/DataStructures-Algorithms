@@ -41,3 +41,8 @@ class Solution:
 # Second submission: Another Way
 # Runtime -> 37 ms Beats 94.79%
 # Memory -> 16.65 MB Beats 67.87%
+
+class Solution:
+    def judgeCircle(self, moves):
+        direct = {'U': 1, 'D': -1, 'L': 1j, 'R': -1j}
+        return 0 == sum(direct[m] for m in moves)
