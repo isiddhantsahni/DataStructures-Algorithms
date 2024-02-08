@@ -44,3 +44,7 @@ Beats
 MB
 Beats
 58.34%
+
+class Solution:
+    def minimizedStringLength(self, s: str) -> int:
+        return len(set(s))
