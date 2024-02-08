@@ -36,14 +36,8 @@ s contains only lowercase English letters
 
 #########################################################################################
 # First submission: Using set function
-# Runtime -> 39
-ms
-Beats
-95.69%
-# Memory -> 16.54
-MB
-Beats
-58.34%
+# Runtime -> 39 ms Beats 95.69%
+# Memory -> 16.54 MB Beats 58.34%
 
 class Solution:
     def minimizedStringLength(self, s: str) -> int:
