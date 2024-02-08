@@ -35,6 +35,6 @@ s contains only lowercase English letters
 """
 
 #########################################################################################
-# First submission: Traversing from last to first character, if 0 found return string from 0 to i+1. 743/756 test cases passed.
+# First submission: 
 # Runtime -> 
 # Memory -> 
