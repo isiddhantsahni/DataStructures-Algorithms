@@ -27,6 +27,6 @@ letter is a lowercase English letter.
 """
 
 #########################################################################################
-# First submission: Splitting on | and counting the even index substring "*".
-# Runtime -> 39 ms Beats 59.52%
+# First submission: 
+# Runtime -> 
 # Memory ->
