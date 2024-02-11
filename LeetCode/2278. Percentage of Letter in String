@@ -30,3 +30,11 @@ letter is a lowercase English letter.
 # First submission: Using round function 
 # Runtime -> 
 # Memory ->
+
+class Solution:
+    def percentageLetter(self, s: str, letter: str) -> int:
+        count=0
+        for charac in s:
+            if letter == charac:
+                count+=1
+        return round(count/len(s)*100)
