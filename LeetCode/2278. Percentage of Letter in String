@@ -27,7 +27,7 @@ letter is a lowercase English letter.
 """
 
 #########################################################################################
-# First submission: Using round function 
+# First submission: Using round function. Only passed 77 / 86 testcases
 # Runtime -> 
 # Memory ->
 
