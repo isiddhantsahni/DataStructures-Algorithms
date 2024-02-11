@@ -38,3 +38,7 @@ class Solution:
             if letter == charac:
                 count+=1
         return round(count/len(s)*100)
+
+# Second submission: Using int
+# Runtime -> 
+# Memory ->
