@@ -54,3 +54,7 @@ class Solution:
 # Third submission: One-liner
 # Runtime -> 37 ms Beats 50.05%
 # Memory -> 16.62 MB Beats 46.73%
+
+class Solution:
+    def percentageLetter(self, s: str, letter: str) -> int:
+        return int((s.count(letter) / len(s)) * 100)
