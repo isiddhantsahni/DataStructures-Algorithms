@@ -40,14 +40,8 @@ class Solution:
         return round(count/len(s)*100)
 
 # Second submission: Using int
-# Runtime -> 37
-ms
-Beats
-50.05%
-# Memory -> 16.62
-MB
-Beats
-46.73%
+# Runtime -> 37 ms Beats 50.05%
+# Memory -> 16.62 MB Beats 46.73%
 
 class Solution:
     def percentageLetter(self, s: str, letter: str) -> int:
