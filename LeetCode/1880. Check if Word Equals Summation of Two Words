@@ -50,8 +50,14 @@ firstWord, secondWord, and targetWord consist of lowercase English letters from 
 
 #########################################################################################
 # First submission: Looping and assigning values to a string var and adding it up.
-# Runtime -> 
-# Memory ->
+# Runtime -> 42
+ms
+Beats
+19.90%
+# Memory -> 16.45
+MB
+Beats
+82.90%
 
 class Solution:
     def isSumEqual(self, firstWord: str, secondWord: str, targetWord: str) -> bool:
