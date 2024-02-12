@@ -52,3 +52,8 @@ firstWord, secondWord, and targetWord consist of lowercase English letters from 
 # First submission: Looping and assigning values to a string var and adding it up.
 # Runtime -> 
 # Memory ->
+
+class Solution:
+    def isSumEqual(self, firstWord: str, secondWord: str, targetWord: str) -> bool:
+        numeric_total = lambda s: int(''.join([str(ord(letter) - ord('a')) for letter in s]))
+        return numeric_total(firstWord) + numeric_total(secondWord) == numeric_total(targetWord)    
