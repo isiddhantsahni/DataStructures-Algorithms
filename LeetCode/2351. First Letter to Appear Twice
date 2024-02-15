@@ -35,6 +35,6 @@ s has at least one repeated letter.
 """
 
 #########################################################################################
-# First submission: Using set to find uniqure numbers and count the leftovers.
-# Runtime -> 45 ms Beats 33.38%
+# First submission: 
+# Runtime -> 
 # Memory ->
