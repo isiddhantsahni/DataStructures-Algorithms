@@ -35,7 +35,7 @@ s has at least one repeated letter.
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Using set
 # Runtime -> 
 # Memory ->
 
