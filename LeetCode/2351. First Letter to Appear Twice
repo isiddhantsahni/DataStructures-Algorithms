@@ -36,8 +36,14 @@ s has at least one repeated letter.
 
 #########################################################################################
 # First submission: Using set
-# Runtime -> 
-# Memory ->
+# Runtime -> 34
+ms
+Beats
+68.63%
+# Memory -> 16.50
+MB
+Beats
+89.18%
 
 class Solution:
     def repeatedCharacter(self, s: str) -> str:
