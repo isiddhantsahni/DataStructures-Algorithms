@@ -35,8 +35,14 @@ brokenLetters consists of distinct lowercase English letters.
 
 #########################################################################################
 # First submission: Checking if each character present in the words, if yes then subrtactin 1 from var that has number of words.
-# Runtime -> 
-# Memory -> 
+# Runtime -> 37
+ms
+Beats
+62.97%
+# Memory -> 16.70
+MB
+Beats
+87.84%
 
 class Solution:
     def canBeTypedWords(self, text: str, brokenLetters: str) -> int:
