@@ -34,6 +34,6 @@ brokenLetters consists of distinct lowercase English letters.
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Checking if each character present in the words, if yes then subrtactin 1 from var that has number of words.
 # Runtime -> 
 # Memory -> 
