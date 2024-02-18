@@ -49,14 +49,8 @@ class Solution:
         return val
 
 # Second submission: Another method.
-# Runtime -> 34
-ms
-Beats
-73.43%
-# Memory -> 16.59
-MB
-Beats
-79.71%
+# Runtime -> 34 ms Beats 73.43%
+# Memory -> 16.59 MB Beats 79.71%
 
 class Solution:
     def digitCount(self, num: str) -> bool:
