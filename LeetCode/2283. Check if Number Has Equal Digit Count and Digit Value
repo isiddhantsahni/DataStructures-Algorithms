@@ -36,6 +36,6 @@ num consists of digits.
 """
 
 #########################################################################################
-# First submission: Using round function. Only passed 77 / 86 testcases
+# First submission: Using enumerate and checking the count.
 # Runtime -> 
 # Memory ->
