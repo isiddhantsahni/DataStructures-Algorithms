@@ -48,6 +48,10 @@ class Solution:
                 val = False
         return val
 
+# First submission: Using enumerate and checking the count.
+# Runtime -> 39 ms Beats 41.86%
+# Memory -> 16.67 MB Beats 62.00%
+
 class Solution:
     def digitCount(self, num: str) -> bool:
         for i in range(len(num)):
