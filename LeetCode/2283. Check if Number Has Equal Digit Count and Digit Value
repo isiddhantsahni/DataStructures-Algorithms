@@ -48,7 +48,7 @@ class Solution:
                 val = False
         return val
 
-# First submission: Using enumerate and checking the count.
+# Second submission: Using enumerate and checking the count.
 # Runtime -> 39 ms Beats 41.86%
 # Memory -> 16.67 MB Beats 62.00%
 
