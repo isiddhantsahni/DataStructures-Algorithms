@@ -39,3 +39,11 @@ num consists of digits.
 # First submission: Using enumerate and checking the count.
 # Runtime -> 
 # Memory ->
+
+class Solution:
+    def digitCount(self, num: str) -> bool:
+        val = True
+        for i,character in enumerate(num):
+            if num.count(str(i)) != int(character):
+                val = False
+        return val
