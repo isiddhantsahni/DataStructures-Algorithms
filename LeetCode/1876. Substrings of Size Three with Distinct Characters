@@ -33,14 +33,8 @@ s​​​​​​ consists of lowercase English letters.
 
 #########################################################################################
 # First submission: Using set
-# Runtime -> 38
-ms
-Beats
-55.32%
-# Memory -> 16.71
-MB
-Beats
-60.14%
+# Runtime -> 38 ms Beats 55.32%
+# Memory -> 16.71 MB Beats 60.14%
 
 class Solution:
      def countGoodSubstrings(self, s: str) -> int:
