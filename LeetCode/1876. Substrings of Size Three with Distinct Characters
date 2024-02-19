@@ -33,5 +33,11 @@ s​​​​​​ consists of lowercase English letters.
 
 #########################################################################################
 # First submission: Using set
-# Runtime -> 
-# Memory -> 
+# Runtime -> 38
+ms
+Beats
+55.32%
+# Memory -> 16.71
+MB
+Beats
+60.14%
