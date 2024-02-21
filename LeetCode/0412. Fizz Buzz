@@ -30,8 +30,14 @@ Constraints:
 
 #########################################################################################
 # First submission: Using for loop with multi if else statements.
-# Runtime -> 
-# Memory -> 
+# Runtime -> 43
+ms
+Beats
+59.59%
+# Memory -> 17.70
+MB
+Beats
+53.94%
 
 class Solution:
     def fizzBuzz(self, n: int) -> List[str]:
