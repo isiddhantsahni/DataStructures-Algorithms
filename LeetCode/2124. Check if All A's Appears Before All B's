@@ -34,6 +34,6 @@ s[i] is either 'a' or 'b'.
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Checking if b exists before an a in string.
 # Runtime -> 
 # Memory -> 
