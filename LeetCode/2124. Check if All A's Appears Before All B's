@@ -35,8 +35,14 @@ s[i] is either 'a' or 'b'.
 
 #########################################################################################
 # First submission: Checking if b exists before an a in string.
-# Runtime -> 
-# Memory -> 
+# Runtime -> 35
+ms
+Beats
+61.23%
+# Memory -> 16.56
+MB
+Beats
+65.45%
 
 class Solution:
     def checkString(self, s: str) -> bool:
