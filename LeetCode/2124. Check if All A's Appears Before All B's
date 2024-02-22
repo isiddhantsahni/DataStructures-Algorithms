@@ -34,6 +34,6 @@ s[i] is either 'a' or 'b'.
 """
 
 #########################################################################################
-# First submission: Using len and split functions to count the words in a sentence, and then returning word count of the largest word sentence.
-# Runtime -> 52 ms Beats 65.80%
-# Memory -> 1
+# First submission: 
+# Runtime -> 
+# Memory -> 
