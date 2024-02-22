@@ -46,8 +46,15 @@ class Solution:
         return True
 
 # Second submission: Checking to make sure string doesn't contain 'ba' 
-# Runtime -> 
-# Memory ->
+# Runtime -> 36
+ms
+Beats
+52.34%
+# Memory -> 16.33
+MB
+Beats
+99.66%
+
 
 class Solution:
     def checkString(self, s: str) -> bool:
