@@ -45,6 +45,10 @@ class Solution:
                 return False
         return True
 
-# Second submission: 
+# Second submission: Checking to make sure string doesn't contain 'ba' 
 # Runtime -> 
 # Memory ->
+
+class Solution:
+    def checkString(self, s: str) -> bool:
+        return 'ba' not in s
