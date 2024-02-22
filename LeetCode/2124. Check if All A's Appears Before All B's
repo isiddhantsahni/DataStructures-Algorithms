@@ -44,3 +44,7 @@ class Solution:
             if i > 0 and s[i - 1] == 'b' and c == 'a':
                 return False
         return True
+
+# Second submission: Checking if b exists before an a in string.
+# Runtime -> 35 ms Beats 61.23%
+# Memory -> 16.56 MB Beats 65.45%
