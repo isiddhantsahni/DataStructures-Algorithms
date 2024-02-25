@@ -40,7 +40,7 @@ distance.length == 26
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Using dictionary and ord function
 # Runtime -> 
 # Memory -> 
 
