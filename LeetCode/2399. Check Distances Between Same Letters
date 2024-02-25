@@ -41,8 +41,14 @@ distance.length == 26
 
 #########################################################################################
 # First submission: Using dictionary and ord function
-# Runtime -> 
-# Memory -> 
+# Runtime -> 38
+ms
+Beats
+92.04%
+# Memory -> 16.42
+MB
+Beats
+97.47%
 
 class Solution:   
     def checkDistances(self, s: str, distance: List[int]) -> bool:
