@@ -38,3 +38,24 @@ words1[i] and words2[j] consists only of lowercase English letters.
 # First submission: Using dictionary.
 # Runtime ->
 # Memory ->
+
+class Solution:
+    def countWords(self, words1: List[str], words2: List[str]) -> int:
+        new1={}
+        for value in words1:
+            if value in new1:
+                new1[value]+=1
+            else:
+                new1[value]=1
+        new2={}
+        for val in words2:
+            if val in new2:
+                new2[val]+=1
+            else:
+                new2[val]=1
+        result=0
+        for n in new1:
+            if n in new1 and n in new2:
+                if  new1[n]==1 and new2[n]==1:
+                    result+=1
+        return (result)
