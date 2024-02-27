@@ -36,8 +36,14 @@ words1[i] and words2[j] consists only of lowercase English letters.
 
 #########################################################################################
 # First submission: Using dictionary.
-# Runtime ->
-# Memory ->
+# Runtime -> 69
+ms
+Beats
+74.50%
+# Memory -> 17.06
+MB
+Beats
+61.84%
 
 class Solution:
     def countWords(self, words1: List[str], words2: List[str]) -> int:
