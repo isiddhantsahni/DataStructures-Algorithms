@@ -35,6 +35,6 @@ words1[i] and words2[j] consists only of lowercase English letters.
 """
 
 #########################################################################################
-# First submission: 
+# First submission: Using dictionary.
 # Runtime ->
 # Memory ->
