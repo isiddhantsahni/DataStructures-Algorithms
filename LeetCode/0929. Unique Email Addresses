@@ -5,3 +5,6 @@
 """
 
 #########################################################################################
+# First submission: Creating a new array which is the transpose of the previous one.
+# Runtime -> 152 ms Beats 5.20%
+# Memory -> 
