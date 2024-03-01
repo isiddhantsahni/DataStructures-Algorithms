@@ -40,8 +40,16 @@ Domain names end with the ".com" suffix.
 
 #########################################################################################
 # First submission: Using set and map.
-# Runtime -> 
-# Memory -> 
+# Runtime -> 50
+ms
+Beats
+83.35%
+
+# Memory -> 50
+ms
+Beats
+83.35%
+
 
 class Solution:
     def numUniqueEmails(self, emails: List[str]) -> int:
