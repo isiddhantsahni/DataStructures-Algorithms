@@ -32,14 +32,8 @@ Constraints:
 
 #########################################################################################
 # First submission: One-liner
-# Runtime -> 36
-ms
-Beats
-49.63%
-# Memory -> 16.55
-MB
-Beats
-58.59%
+# Runtime -> 36 ms Beats 49.63%
+# Memory -> 16.55 MB Beats 58.59%
 
 class Solution:
     def convertTemperature(self, celsius: float) -> List[float]:
