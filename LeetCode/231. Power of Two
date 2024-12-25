@@ -31,3 +31,8 @@ Constraints:
 
 Follow up: Could you solve it without loops/recursion?
 """
+
+#########################################################################################
+# First submission: You need to know the difference between subarray and subsequence. Subarray need to be consecutive。 Subsequence don't have to be consecutive.
+# Runtime -> 34 ms Beats 69.75%
+# Memory -> 16.54 MB Beats 57.56%
