@@ -34,8 +34,8 @@ Follow up: Could you solve it without loops/recursion?
 
 #########################################################################################
 # First submission: Bitwise Manipulation.
-# Runtime -> 34 ms Beats 69.75%
-# Memory -> 16.54 MB Beats 57.56%
+# Runtime -> 0 ms Beats 100%
+# Memory -> 17.61 MB Beats 8.90%
 
 class Solution(object):
     def isPowerOfTwo(self, n):
