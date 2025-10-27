@@ -62,6 +62,17 @@ class Solution:
         return total_sum
 
 #########################################################################################
-# Second submission: 
-# Runtime -> 
-# Memory -> 
+# Second submission: Instead of using many in-built functions, just using count function to reduce functions overhead.
+# Runtime -> 3 ms Beats 93.28%
+# Memory -> 19.5 MB Beats 77.54%
+
+class Solution:
+    def numberOfBeams(self, bank: List[str]) -> int:
+        total_sum = 0
+        prior_sum = 0
+        for i in bank:
+            new_sum = i.count('1')
+            if new_sum:
+                total_sum += (prior_sum * new_sum)
+                prior_sum = new_sum
+        return total_sum
