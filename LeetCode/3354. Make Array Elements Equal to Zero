@@ -1,45 +1,100 @@
-# Problem link -> https://leetcode.com/problems/3sum/description/
+# Problem link -> https://leetcode.com/problems/make-array-elements-equal-to-zero/
 
 """
-Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
+You are given an integer array nums.
 
-Notice that the solution set must not contain duplicate triplets.
+Start by selecting a starting position curr such that nums[curr] == 0, and choose a movement direction of either left or right.
+
+After that, you repeat the following process:
+
+If curr is out of the range [0, n - 1], this process ends.
+If nums[curr] == 0, move in the current direction by incrementing curr if you are moving right, or decrementing curr if you are moving left.
+Else if nums[curr] > 0:
+Decrement nums[curr] by 1.
+Reverse your movement direction (left becomes right and vice versa).
+Take a step in your new direction.
+A selection of the initial position curr and movement direction is considered valid if every element in nums becomes 0 by the end of the process.
+
+Return the number of possible valid selections.
 
  
 
 Example 1:
 
-Input: nums = [-1,0,1,2,-1,-4]
-Output: [[-1,-1,2],[-1,0,1]]
-Explanation: 
-nums[0] + nums[1] + nums[2] = (-1) + 0 + 1 = 0.
-nums[1] + nums[2] + nums[4] = 0 + 1 + (-1) = 0.
-nums[0] + nums[3] + nums[4] = (-1) + 2 + (-1) = 0.
-The distinct triplets are [-1,0,1] and [-1,-1,2].
-Notice that the order of the output and the order of the triplets does not matter.
+Input: nums = [1,0,2,0,3]
+
+Output: 2
+
+Explanation:
+
+The only possible valid selections are the following:
+
+Choose curr = 3, and a movement direction to the left.
+[1,0,2,0,3] -> [1,0,2,0,3] -> [1,0,1,0,3] -> [1,0,1,0,3] -> [1,0,1,0,2] -> [1,0,1,0,2] -> [1,0,0,0,2] -> [1,0,0,0,2] -> [1,0,0,0,1] -> [1,0,0,0,1] -> [1,0,0,0,1] -> [1,0,0,0,1] -> [0,0,0,0,1] -> [0,0,0,0,1] -> [0,0,0,0,1] -> [0,0,0,0,1] -> [0,0,0,0,0].
+Choose curr = 3, and a movement direction to the right.
+[1,0,2,0,3] -> [1,0,2,0,3] -> [1,0,2,0,2] -> [1,0,2,0,2] -> [1,0,1,0,2] -> [1,0,1,0,2] -> [1,0,1,0,1] -> [1,0,1,0,1] -> [1,0,0,0,1] -> [1,0,0,0,1] -> [1,0,0,0,0] -> [1,0,0,0,0] -> [1,0,0,0,0] -> [1,0,0,0,0] -> [0,0,0,0,0].
 Example 2:
 
-Input: nums = [0,1,1]
-Output: []
-Explanation: The only possible triplet does not sum up to 0.
-Example 3:
+Input: nums = [2,3,4,0,4,1,0]
 
-Input: nums = [0,0,0]
-Output: [[0,0,0]]
-Explanation: The only possible triplet sums up to 0.
+Output: 0
+
+Explanation:
+
+There are no possible valid selections.
+
  
 
 Constraints:
 
-3 <= nums.length <= 3000
--105 <= nums[i] <= 105
+1 <= nums.length <= 100
+0 <= nums[i] <= 100
+There is at least one element i where nums[i] == 0.
 """
 
 
 #########################################################################################
-# First submission: 
-# Runtime -> 1875 ms Beats 63.87%
-# Memory -> 18.1 MB Beats 72.93%
+# First submission: Time Limit Exceeded. Made simple logic of the simulation and tried making a bruteforce solution.
 
 class Solution:
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
+    def countValidSelections(self, nums: List[int]) -> int:
+        count = 0
+        occurrences = [index for index, item in enumerate(nums) if item == 0]
+        n = len(nums)
+        directions = [-1 , 1]
+        og_nums = nums[:]
+
+        for og_direction in directions:
+            for curr in occurrences:
+                # countLogicFunction(og_direction, curr, og_nums, n)
+                direction = og_direction
+                # print(direction," ",curr)
+                nums = og_nums[:]
+                while curr in range(0,n):
+                    if nums[curr] == 0:
+                        curr += direction
+                    elif nums[curr] > 0:
+                        nums[curr] -= 1
+                        direction *= -1
+                        curr += direction
+                if all(v == 0 for v in nums):
+                    count+=1
+        return count
+    # def countLogicFunction(self, direction, curr, og_nums, n):
+    #     nums = og_nums[:]
+    #     while curr in range(0,n):
+    #         if nums[curr] == 0:
+    #             curr += direction
+    #         elif nums[curr] > 0:
+    #             nums[curr] -= 1
+    #             direction *= -1
+    #             curr += direction
+    #     if all(v == 0 for v in nums):
+    #         return 1
+    #     else:
+    #         return 0
+
+#########################################################################################
+# Second submission: 
+# Runtime -> ms Beats %
+# Memory -> MB Beats %
