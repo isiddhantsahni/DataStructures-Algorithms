@@ -95,6 +95,31 @@ class Solution:
     #         return 0
 
 #########################################################################################
-# Second submission: 
-# Runtime -> ms Beats %
-# Memory -> MB Beats %
+# Second submission: Simplified the solution and removed using unnecessary variables.
+# Runtime -> 4626 ms Beats 5.42%
+# Memory -> 17.76 MB Beats 53.69%
+
+class Solution:
+    def countValidSelections(self, nums: List[int]) -> int:
+        count = 0
+        sum_of_non_zero_elements = sum(1 for x in nums if x > 0)
+        n = len(nums)
+        for i in range(n):
+            if nums[i] == 0:
+                if self.countLogicFunction(nums, sum_of_non_zero_elements, i, -1):
+                    count += 1
+                if self.countLogicFunction(nums, sum_of_non_zero_elements, i, 1):
+                    count += 1
+        return count
+    
+    def countLogicFunction(self, nums, summ, start, direction):
+        temp = nums[:]
+        curr = start
+        while summ > 0 and 0 <= curr < len(nums):
+            if temp[curr] > 0:
+                temp[curr] -= 1
+                direction *= -1
+                if temp[curr] == 0:
+                    summ -= 1
+            curr += direction
+        return summ == 0
