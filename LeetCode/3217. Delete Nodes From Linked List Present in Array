@@ -55,29 +55,38 @@ The input is generated such that there is at least one node in the linked list t
 
 
 #########################################################################################
-# First submission: 
-# Runtime -> 1875 ms Beats 63.87%
-# Memory -> 18.1 MB Beats 72.93%
+# First submission: Using logic to move next pointer to the next node and returning the linked list left.
+# Runtime -> 52 ms Beats 84.19%
+# Memory -> 58.66 MB Beats 41.86%
 
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
 class Solution:
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
-        res = []
-        nums.sort()
+    def modifiedList(self, nums: List[int], head: Optional[ListNode]) -> Optional[ListNode]:
+        
+        # Create a set for efficient lookup of values in nums
+        values_to_remove = set(nums)
 
-        for i, a in enumerate(nums):
-            if i > 0 and a == nums[i - 1]:
-                continue
-            
-            l, r = i + 1, len(nums) - 1  
-            while l < r:
-                threeSum = a + nums[l] + nums[r] 
-                if threeSum > 0:
-                    r -= 1
-                elif threeSum < 0:
-                    l += 1
-                else:
-                    res.append([a, nums[l], nums[r]])
-                    l += 1
-                    while nums[l] == nums[l-1] and l<r:
-                        l+=1
-        return res
+        # Handle the case where the head node needs to be removed
+        while head and head.val in values_to_remove:
+            head = head.next
+
+        # If the list is empty after removing head nodes, return None
+        if not head:
+            return None
+
+        # Iterate through the list, removing nodes with values in the set
+        current = head
+        while current.next:
+            if current.next.val in values_to_remove:
+                # Skip the next node by updating the pointer
+                current.next = current.next.next
+            else:
+                # Move to the next node
+                current = current.next
+
+        return head
+        
