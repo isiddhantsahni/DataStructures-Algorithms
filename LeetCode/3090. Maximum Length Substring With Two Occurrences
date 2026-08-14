@@ -36,3 +36,28 @@ s consists only of lowercase English letters.
 # Runtime -> 15 ms Beats 17.57%
 # Memory ->  19.47 MB Beats 5.40%
 
+class Solution:
+    def maximumLengthSubstring(self, s: str) -> int:
+        maxim = []
+        for i in range(len(s)):
+            diction = {}
+            count=0
+            print(i)
+            for j in range(i,len(s)):
+                if s[j] not in diction:
+                    diction[s[j]] = 1
+                    count+=1
+                    # print(diction)
+                    # print("count in if = ",count)
+                elif s[j] in diction and diction[s[j]]<2:
+                    diction[s[j]]+=1
+                    count+=1
+                    # print(diction)
+                    # print("count = ",count)
+                else:
+                    # maxim.append(count)
+                    # print(diction)
+                    # print(count)
+                    break
+            maxim.append(count)
+        return max(maxim)
